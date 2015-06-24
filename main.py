@@ -1,7 +1,12 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
 
-import getarticle, findlinks, namearticle, collection, nbpages, xml
+import src.getarticle
+import src.findlinks 
+import src.namearticle 
+import src.collection 
+import src.nbpages 
+import src.xml
 import unicodedata
 
 #url = "http://bmjopen.bmj.com/content/5/6/e007470.full"
