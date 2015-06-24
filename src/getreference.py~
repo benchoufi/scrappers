@@ -1,0 +1,22 @@
+import urllib2
+from bs4 import BeautifulSoup
+import re
+import namearticle
+from lxml import etree
+
+def get_date(ref, root) :
+	#return ref.find('span', attrs={"class":"cit-pub-date"})
+	date = str(ref.find('span', attrs={"class":"cit-pub-date"}))
+	date = date.split('"')[2].split(">")[1].split("<")[0]
+	d = etree.SubElement(root, "publication-date")
+	d.text = str(date)
+	return root
+
+
+def get_reference(soup, root):
+	refer = etree.SubElement(root, "references")
+	references = soup.findAll('div', attrs={"class":"cit-metadata"})
+	for ref in references :
+		#print get_date(ref, refer)
+		refer = get_date(ref, refer)
+	return root

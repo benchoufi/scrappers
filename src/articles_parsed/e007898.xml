@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<article>
+  <title>What factors contribute to positive early childhood health and development in Australian Aboriginal children? Protocol for
+         a population-based cohort study using linked administrative data (The Seeding Success Study) </title>
+  <authors>
+    <author name="Kathleen Falster"/>
+    <author name="Louisa Jorm"/>
+    <author name="Sandra Eades"/>
+    <author name="John Lynch"/>
+    <author name="Emily Banks"/>
+    <author name="Marni Brownell"/>
+    <author name="Rhonda Craven"/>
+    <author name="Kristjana Einarsd&#243;ttir"/>
+    <author name="Deborah Randall"/>
+  </authors>
+  <body>
+    <p>&lt;strong&gt;Introduction&lt;/strong&gt; Australian Aboriginal children are more likely than non-Aboriginal children to have developmental vulnerability at school
+                                    entry that tracks through to poorer literacy and numeracy outcomes and multiple social and health disadvantages in later life.
+                                    Empirical evidence identifying the key drivers of positive early childhood development in Aboriginal children, and supportive
+                                    features of local communities and early childhood service provision, are lacking.
+                                 </p>
+    <p>&lt;strong&gt;Methods and analysis&lt;/strong&gt; The study population will be identified via linkage of Australian Early Development Census data to perinatal and birth registration
+                                    data sets. It will include an almost complete population of children who started their first year of full-time school in New
+                                    South Wales (NSW), Australia, in 2009 and 2012. Early childhood health and development trajectories for these children will
+                                    be constructed via linkage to a range of administrative data sets relating to birth outcomes, congenital conditions, hospital
+                                    admissions, emergency department presentations, receipt of ambulatory mental healthcare services, use of general practitioner
+                                    services, contact with child protection and out-of-home care services, receipt of income assistance and fact of death. Using
+                                    multilevel modelling techniques, we will quantify the contributions of individual-level and area-level factors to variation
+                                    in early childhood development outcomes in Aboriginal and non-Aboriginal children. Additionally, we will evaluate the impact
+                                    of two government programmes that aim to address early childhood disadvantage, the NSW Aboriginal Maternal and Infant Health
+                                    Service and the Brighter Futures Program. These evaluations will use propensity score matching methods and multilevel modelling.
+                                 </p>
+    <p>&lt;strong&gt;Ethics and dissemination&lt;/strong&gt; Ethical approval has been obtained for this study. Dissemination mechanisms include engagement of stakeholders (including
+                                    representatives from Aboriginal community controlled organisations, policy agencies, service providers) through a reference
+                                    group, and writing of summary reports for policy and community audiences in parallel with scientific papers.
+                                 </p>
+    <p>This large, retrospective cohort study&#8212;constructed from linked, administrative data&#8212;will include an almost complete population
+                                       of children born in the state of New South Wales, Australia; this will enable investigation of small population groups, such
+                                       as Aboriginal children, and minimise selection bias.
+                                    </p>
+    <p>This study will apply quasi-experimental methods to the analysis of routinely collected data to assess the effectiveness of
+                                       extant programmes to address early childhood disadvantage.
+                                    </p>
+    <p>The study uses only routinely collected data, and is subject to the limitations of these data. However, the linked data will
+                                       be drawn from across multiple sectors and agencies and will include multiple measures for some key constructs to better capture
+                                       diverse social and economic backgrounds.
+                                    </p>
+    <p>Aboriginal Australians experience multiple social and health disadvantages from the prenatal period onwards.&lt;a class="xref-bibr" href="#ref-1" id="xref-ref-1-1"&gt;1&lt;/a&gt; Infant&lt;a class="xref-bibr" href="#ref-2" id="xref-ref-2-1"&gt;2&lt;/a&gt; and child&lt;a class="xref-bibr" href="#ref-3" id="xref-ref-3-1"&gt;3&lt;/a&gt; mortality rates are higher among Aboriginal children, as are well-established influences on poor health, cognitive and education
+                                 outcomes,&lt;a class="xref-bibr" href="#ref-4" id="xref-ref-4-1"&gt;4&#8211;6&lt;/a&gt; including premature birth and low birth weight,&lt;a class="xref-bibr" href="#ref-7" id="xref-ref-7-1"&gt;7&#8211;9&lt;/a&gt; being born to teenage mothers&lt;a class="xref-bibr" href="#ref-7" id="xref-ref-7-2"&gt;7&lt;/a&gt; and socioeconomic disadvantage.&lt;a class="xref-bibr" href="#ref-1" id="xref-ref-1-2"&gt;1&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-8" id="xref-ref-8-1"&gt;8&lt;/a&gt; Addressing Aboriginal early life disadvantage is of particular importance because of the high birth rate among Aboriginal
+                                 people&lt;a class="xref-bibr" href="#ref-10" id="xref-ref-10-1"&gt;10&lt;/a&gt; and subsequent young age structure of the Aboriginal population.&lt;a class="xref-bibr" href="#ref-11" id="xref-ref-11-1"&gt;11&lt;/a&gt; Recent population estimates suggest that children under 10&#8197;years of age account for almost a quarter of the Aboriginal population
+                                 compared with only 12% of the non-Aboriginal population of Australia.&lt;a class="xref-bibr" href="#ref-11" id="xref-ref-11-2"&gt;11&lt;/a&gt;</p>
+    <p>By school entry, 43&#8211;47% of Aboriginal children have markers of developmental vulnerability.&lt;a class="xref-bibr" href="#ref-12" id="xref-ref-12-1"&gt;12&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-13" id="xref-ref-13-1"&gt;13&lt;/a&gt; In 2009, the first-ever national census of childhood development at school entry showed that Aboriginal children were 2&#8211;3
+                                 times more likely than non-Aboriginal children to be developmentally vulnerable&#8212;defined as an Australian Early Development
+                                 Census (AEDC) score below the 10th centile&#8212;on one or more domains.&lt;a class="xref-bibr" href="#ref-14" id="xref-ref-14-1"&gt;14&lt;/a&gt; The Longitudinal Survey of Australian Children reported similar disparities for cognitive outcomes among Aboriginal children
+                                 aged 4&#8211;5&#8197;years, although the number of Aboriginal children was very small and not representative of the Aboriginal population.&lt;a class="xref-bibr" href="#ref-15" id="xref-ref-15-1"&gt;15&lt;/a&gt; There is currently a dearth of empirical research that identifies the drivers of positive early childhood health and development
+                                 in Aboriginal children, or characterises vulnerable developmental trajectories.
+                              </p>
+    <p>Developmental vulnerability at school entry tracks through to poor literacy and numeracy outcomes across all schooling years.&lt;a class="xref-bibr" href="#ref-16" id="xref-ref-16-1"&gt;16&#8211;18&lt;/a&gt; Results from the Programme for International Student Assessment, conducted every 3&#8197;years between 2000 and 2012, show consistently
+                                 low achievement levels among Aboriginal secondary students in maths, literacy and science, including a recent decline in mathematical
+                                 achievement.&lt;a class="xref-bibr" href="#ref-17" id="xref-ref-17-1"&gt;17&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-19" id="xref-ref-19-1"&gt;19&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-20" id="xref-ref-20-1"&gt;20&lt;/a&gt; In 2012, more than 25% of year 9 Aboriginal students performed below the minimum standard for reading and numeracy compared
+                                 with 5&#8211;6% of non-Aboriginal children.&lt;a class="xref-bibr" href="#ref-16" id="xref-ref-16-2"&gt;16&lt;/a&gt; Aboriginal children are more likely to leave school early and less than half of the Aboriginal children who start high school
+                                 complete year 12, compared with almost 80% of non-Aboriginal children.&lt;a class="xref-bibr" href="#ref-1" id="xref-ref-1-3"&gt;1&lt;/a&gt; In older Aboriginal Australians, this trajectory of disadvantage manifests as limited education and life opportunities, unemployment,&lt;a class="xref-bibr" href="#ref-21" id="xref-ref-21-1"&gt;21&lt;/a&gt; poor health and premature mortality.&lt;a class="xref-bibr" href="#ref-21" id="xref-ref-21-2"&gt;21&lt;/a&gt;</p>
+    <p>In 2008, the Council of Australian Governments committed to reducing Indigenous disadvantage and set six &#8216;Closing the Gap&#8217;
+                                 targets that aim to redress inequalities in life expectancy, child mortality, education and employment.&lt;a class="xref-bibr" href="#ref-22" id="xref-ref-22-1"&gt;22&lt;/a&gt; Despite this political will, progress towards some of these&#8212;including numeracy and literacy outcomes&#8212;has been disappointing.&lt;a class="xref-bibr" href="#ref-23" id="xref-ref-23-1"&gt;23&lt;/a&gt; Until the substantial inequalities in perinatal and early childhood disadvantage, health and development are reduced, and
+                                 what &#8216;seeds success&#8217; is identified, it is likely that the education and life prospects of Aboriginal children will remain
+                                 poor.
+                              </p>
+    <p>There is very limited empirical evidence about what works to promote positive early childhood health and development in Australian
+                                    Aboriginal children, despite an ever-growing number of local, statewide and nationwide&#8212;universal and targeted&#8212;early childhood
+                                    programmes and services. Furthermore, these services rarely undergo rigorous empirical evaluation due to limited resources.
+                                    Qualitative research studies suggest numerous ways to improve access&#8212;defined as the opportunity for children and families
+                                    to participate and fully experience the benefits of a programme, affordability, suitability and sufficient quality&#8212;to early
+                                    childhood services for Aboriginal children and their families.&lt;a class="xref-bibr" href="#ref-24" id="xref-ref-24-1"&gt;24&lt;/a&gt; Some examples include: provision of transport; locating services in areas where other daily activities occur (eg, schools);
+                                    provision of low-cost or no-cost services; employing, training and retaining Aboriginal staff; provision of culturally competent
+                                    and secure services; community involvement in the planning and delivery of services; and provision of flexible, comprehensive
+                                    and continuous services.&lt;a class="xref-bibr" href="#ref-24" id="xref-ref-24-2"&gt;24&lt;/a&gt; Although some Aboriginal families prefer to use mainstream instead of Aboriginal-specific services, choice is another facilitator
+                                    of access.&lt;a class="xref-bibr" href="#ref-24" id="xref-ref-24-3"&gt;24&lt;/a&gt; Furthermore, it remains unknown as to whether mainstream early childhood services with proven effectiveness in non-Aboriginal
+                                    populations confer the same benefits to Aboriginal children.
+                                 </p>
+    <p>There has been a recent surge of interest in Australia and internationally in using population-wide linked administrative
+                                    data sets to better understand the factors that promote positive early childhood health and development&lt;a class="xref-bibr" href="#ref-25" id="xref-ref-25-1"&gt;25&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-26" id="xref-ref-26-1"&gt;26&lt;/a&gt; and to evaluate the impact of early childhood programmes, services and policy changes in the &#8216;real world&#8217;.&lt;a class="xref-bibr" href="#ref-27" id="xref-ref-27-1"&gt;27&#8211;29&lt;/a&gt;</p>
+    <p>The Developmental Pathways in Western Australian Children project is an existing data linkage project investigating the pathways
+                                    to health and well-being, education and juvenile delinquency outcomes in Western Australian children and young people.&lt;a class="xref-bibr" href="#ref-30" id="xref-ref-30-1"&gt;30&#8211;36&lt;/a&gt; In South Australia and the Northern Territory, the Early Childhood Development Demonstration Project is a recent linkage
+                                    project aiming to investigate adverse early life risks for healthy development in children at a population level, using administrative
+                                    data.&lt;a class="xref-bibr" href="#ref-37" id="xref-ref-37-1"&gt;37&lt;/a&gt; Both are using the AEDC, an adaptation of the Canadian Early Development Instrument for use in Australia.&lt;a class="xref-bibr" href="#ref-38" id="xref-ref-38-1"&gt;38&lt;/a&gt; However, these studies are not specifically focussed on Aboriginal children, including how the early childhood development
+                                    of Aboriginal children varies across urban and rural geographies or how features of local communities and service provision
+                                    influence the development of Aboriginal children.
+                                 </p>
+    <p>Randomised controlled trials (RCTs) are the gold standard for determining the efficacy of interventions; however, such evidence
+                                    for early childhood interventions is often not available. In such cases, the application of innovative statistical methods
+                                    to the analysis of routinely collected data may present the best opportunity to estimate effectiveness.&lt;a class="xref-bibr" href="#ref-39" id="xref-ref-39-1"&gt;39&lt;/a&gt; Canadian, UK and Australian researchers have undertaken innovative examples of quasi-experimental evaluations of child development
+                                    interventions.&lt;a class="xref-bibr" href="#ref-40" id="xref-ref-40-1"&gt;40&#8211;43&lt;/a&gt; The national evaluation of UK Sure Start Local Programmes (an area-based early intervention for children living in deprived
+                                    communities) is an exemplar of how quasi-experimental observational study methods can be used in the absence of RCT data.
+                                    Comparison of early childhood development outcomes for children living in Sure Start areas with those in propensity-matched
+                                    non-Sure Start areas showed the beneficial effects of the programmes.&lt;a class="xref-bibr" href="#ref-43" id="xref-ref-43-1"&gt;43&lt;/a&gt; In Australia, a similar study design was implemented to evaluate the impact of Communities for Children, an Australian area-based
+                                    initiative designed to enhance the development of young children living in disadvantaged communities.&lt;a class="xref-bibr" href="#ref-44" id="xref-ref-44-1"&gt;44&lt;/a&gt; In Canada, analysis of linked population health and welfare data sets, including information on individual programme participation,
+                                    has enabled evaluation of health service initiatives such as the Manitoba Healthy Baby Program&lt;a class="xref-bibr" href="#ref-41" id="xref-ref-41-1"&gt;41&lt;/a&gt; and use of a screening tool for out-of-home care risk among newborns.&lt;a class="xref-bibr" href="#ref-42" id="xref-ref-42-1"&gt;42&lt;/a&gt; Following this, the Pathways to Health and Social (PATHS) Equity for Children research programme proposes a novel population-based
+                                    focus to understanding what &#8216;works&#8217; to reduce inequities across a wide range of outcomes for children, including health, development
+                                    and education.&lt;a class="xref-bibr" href="#ref-29" id="xref-ref-29-1"&gt;29&lt;/a&gt;</p>
+    <p>Our project, the Seeding Success Study, will capitalise on recent improvements in the availability of linked administrative
+                                    data in Australia, including Medicare Australia data relating to general practitioner (GP) services, and data about participation
+                                    in early childhood services. In partnership with researchers from related projects in Canada, the UK, South Australia, the
+                                    Northern Territory and Western Australia, Aboriginal organisations and policymakers, we will analyse whole-of-population data
+                                    for New South Wales (NSW) to investigate the determinants of positive early childhood development in Aboriginal children,
+                                    and assess the impacts of two &#8216;real-world&#8217; programmes that were implemented under circumstances where evidence of their efficacy
+                                    was unable to be derived from RCTs: the NSW Aboriginal and Maternal Infant Health Service (AMIHS)&lt;a class="xref-bibr" href="#ref-45" id="xref-ref-45-1"&gt;45&lt;/a&gt; and the NSW Department of Family and Community Services (FACS) Brighter Futures Program.&lt;a class="xref-bibr" href="#ref-46" id="xref-ref-46-1"&gt;46&lt;/a&gt; Early evaluations of these programmes suggested some positive changes in proximal outcomes related to their objectives.&lt;a class="xref-bibr" href="#ref-45" id="xref-ref-45-2"&gt;45&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-47" id="xref-ref-47-1"&gt;47&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-48" id="xref-ref-48-1"&gt;48&lt;/a&gt; However, each of these evaluations was limited by one or more of the following: use of single data sets, less than 2&#8197;years
+                                    of outcome data and/or issues of confounding and selection bias. Finally, neither evaluation was able to assess longer term
+                                    outcomes such as early childhood health and development.
+                                 </p>
+    <p>What are the social, perinatal and early childhood health factors that promote positive early childhood development in Aboriginal
+                                          and non-Aboriginal children?
+                                       </p>
+    <p>Is there geographic variation in positive early childhood development in Aboriginal and non-Aboriginal children? If so, what
+                                          area-level factors contribute to this variation?
+                                       </p>
+    <p>Do Aboriginal children living in areas with an Aboriginal Maternal and Infant Health Service (AMIHS) have better health and
+                                          development outcomes in the first 5&#8197;years of life than Aboriginal children not living in areas with an AMIHS?
+                                       </p>
+    <p>Do eligible children who have participated in the Brighter Futures Program have better health and development outcomes in
+                                          the first 5&#8197;years of life than eligible children who have not participated in the Brighter Futures Program?
+                                       </p>
+    <p>Linked records will be requested from the following data sources for members of the study population (&lt;a class="xref-fig" href="#F1" id="xref-fig-1-1"&gt;figure 1&lt;/a&gt;).
+                                 </p>
+    <p>Overview of data sources.</p>
+    <p>The AEDC is a population measure of children's development in their first year of school. It is implemented nationally in
+                                    Australia every 3&#8197;years, starting in 2009.&lt;a class="xref-bibr" href="#ref-14" id="xref-ref-14-2"&gt;14&lt;/a&gt; Prior to 2014, this instrument was known as the Australian Early Development Index (AEDI). Since this study will only use
+                                    data collected in 2009 and 2012, the data source will be referred to as the AEDI in the remainder of this paper. In NSW, AEDI
+                                    data were collected for 87&#8197;170 and 94&#8197;323 children in 2009 and 2012, respectively.&lt;a class="xref-bibr" href="#ref-12" id="xref-ref-12-2"&gt;12&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-13" id="xref-ref-13-2"&gt;13&lt;/a&gt; This is estimated to be approximately 97% of the NSW school starter population in 2009 and 2012 covering both public and
+                                    private schools. A teacher who had known the child for at least 1&#8197;month completed the AEDI checklist. Teachers provided information
+                                    about the child's development in five domains, including: (1) physical health and well-being; (2) social competence; (3) emotional
+                                    maturity; (4) language and cognitive skills; and (5) communication skills and general knowledge.
+                                 </p>
+    <p>The Perinatal Data Collection (PDC) includes records for all children born at &#8805;20&#8197;weeks gestation or weighing &#8805;400&#8197;g in NSW
+                                    public or private hospitals, as well as planned home births. It includes demographic variables, and information on maternal
+                                    health, the pregnancy, labour, birth and perinatal outcomes. The Registry of Births, Death and Marriages (RBDM) compiles birth
+                                    and death registrations for NSW. Birth registrations include date of birth and Aboriginal status as reported by the mother.
+                                    Death registrations include date of birth, date of death, age of death and year of death registration. The National Death
+                                    Index (NDI) compiles death registrations from all states and territories of Australia.
+                                 </p>
+    <p>The NSW Register of Congenital Conditions (RoCC) includes records for children born with a congenital condition as well as
+                                    details of the congenital condition identified during pregnancy, at birth or during the first year of life and the date of
+                                    diagnosis. Identifying information is removed from this data collection after 5&#8197;years; therefore, only 5&#8197;years of data are
+                                    available for linkage at any time. At present, data for pregnancy outcomes (ie, date of termination of pregnancy, birth or
+                                    still birth) recorded between 2006 and 2010 are available. For this reason, only linked records for children in the study
+                                    population who started school, or potentially started school, in 2012 will be requested.
+                                 </p>
+    <p>The NSW Admitted Patient Data Collection (APDC) includes records of all public and private hospital separations (discharges,
+                                    transfers and deaths) in NSW. These data are available from 1 July 2000. It includes patient demographics, diagnoses and procedures
+                                    coded according to the Australian Modification of the International Statistical Classification of Diseases and Related Problems,
+                                    10th Revision (ICD-10-AM). All available records for children in the study population will be obtained. In addition, all records
+                                    for the parents of the children in the study population will be obtained for the 5&#8197;years prior to the birth of the child (where
+                                    available).
+                                 </p>
+    <p>The NSW Emergency Department Data Collection (EDDC) includes records of all presentations to metropolitan emergency departments
+                                    (EDs), and the majority of regional EDs, in NSW in 2005&#8211;2012. It includes patient demographics, mode of arrival, triage category,
+                                    mode of separation, diagnoses and procedures coded according to ICD-10-AM&lt;a class="xref-bibr" href="#ref-49" id="xref-ref-49-1"&gt;49&lt;/a&gt; or Systematized Nomenclature of Medicine, Clinical Terms (SNOMED CT). All available records for children in the study population
+                                    who presented to EDs on or after 1 January 2005 will be obtained.
+                                 </p>
+    <p>The NSW Mental Health Ambulatory Data Collection (MH-AMB) includes data on the assessment, treatment, rehabilitation or care
+                                    of non-admitted patients. It includes records of specialist mental health services operated by NSW Health. The types of mental
+                                    health services captured include: mental health day programmes, psychiatric outpatients and outreach services (eg, home visits);
+                                    hospital-based consultation-liaison services to admitted patients in non-psychiatric and hospital emergency settings; same-day
+                                    admitted non-procedural care; care provided by community workers to admitted patients and clients in staffed community residential
+                                    settings; and mental health promotion and prevention services. Data are available from January 2000; however, there was significant
+                                    undercounting of ambulatory mental healthcare contacts until 2005/2006. The MH-AMB data collection includes patient demographics,
+                                    diagnosis codes coded according to the ICD-10-AM&lt;a class="xref-bibr" href="#ref-49" id="xref-ref-49-2"&gt;49&lt;/a&gt; and other characteristics of the service provided (eg, location, service type) for each &#8216;contact&#8217; between a clinician and
+                                    a patient. All available records for children in the study population will be obtained. In addition, all records for the parents
+                                    of the children in the study population will be obtained for the 5&#8197;years prior to the birth of the child (where available).
+                                 </p>
+    <p>The Key Information Directory System (KiDS) is the NSW FACS&#8217; electronic system for keeping records of selected clients, which
+                                    was introduced during 2003. It includes records of all child protection contacts with FACS, including information about whether
+                                    a child has: (1) been assessed by a child protection caseworker as being at actual harm/risk of harm; (2) had a legal decision
+                                    made in relation to them (eg, court orders); (3) been placed in out-of-home care (including type of care and number of placements);
+                                    (4) been referred to and participated in a FACS early intervention programme (eg, Brighter Futures). All records for children
+                                    in the study population will be obtained from their date of birth until the end of their first year of school.
+                                 </p>
+    <p>In addition to the data sources described thus far, it is our intention to request linked data from the Medicare Benefits
+                                    Schedule (MBS) and Centrelink income assistance data, although some of the details of this request remain under negotiation
+                                    with the relevant government agencies. The MBS data include records for claims for medical and diagnostic services. These
+                                    records include the MBS item number, date of service, provider charge, schedule fee, benefit paid, payment method and scrambled
+                                    provider number. All MBS records will be requested for children in the study population from birth until the end of their
+                                    first year of school.
+                                 </p>
+    <p>The Australian Government Department of Human Services, on behalf of the Department of Social Services, records data on the
+                                    receipt of Australian Government payments administered via Centrelink. All records for a defined set of income assistance
+                                    payments (most likely Family Tax Benefit Part A) that were provided to the carers of the children in the study population
+                                    from the child's birth date through to the end of their first year of school will be requested.
+                                 </p>
+    <p>Finally, data collected by the AMIHS during the study period, aggregated at the site level, will be obtained. This includes
+                                    the following information for each AMIHS site: numbers of pregnant women seen, numbers of pregnant women who received antenatal
+                                    care before 20&#8197;weeks gestation, numbers of low birthweight children, numbers of Aboriginal pregnant women who smoked, used
+                                    other drugs or alcohol during pregnancy and numbers of Aboriginal pregnant women who initiated breast feeding and were breast
+                                    feeding 6&#8197;weeks after birth.
+                                 </p>
+    <p>This is a retrospective cohort study based on an almost complete population of children who started their first year of full-time
+                                    school in the state of NSW, Australia, in 2009 and 2012. The study population will include all children who started school,
+                                    and have an AEDI record, in NSW in 2009 or 2012 (henceforth referred to as the &#8216;NSW school starter population&#8217;), which is
+                                    estimated to be almost 181&#8197;500 children.&lt;a class="xref-bibr" href="#ref-12" id="xref-ref-12-3"&gt;12&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-13" id="xref-ref-13-3"&gt;13&lt;/a&gt; Of these children, almost 9000 are Aboriginal (4.5% and 5.3% of the NSW school starter population in 2009 and 2012, respectively).&lt;a class="xref-bibr" href="#ref-12" id="xref-ref-12-4"&gt;12&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-13" id="xref-ref-13-4"&gt;13&lt;/a&gt; Within the NSW school starter population, children who were born in NSW will be ascertained via linkage to the PDC and the
+                                    RBDM birth registrations (&lt;a class="xref-fig" href="#F2" id="xref-fig-2-1"&gt;figure 2&lt;/a&gt;). Since these children will have data available from birth to school age, they will be the focus of the majority of analyses
+                                    for this study (henceforth referred to as the &#8216;study cohort&#8217;).
+                                 </p>
+    <p>The inflow and outflow of children in NSW from birth to school age, including the potential school starter and the school
+                                          starter populations for 2009 and 2012, and the main study cohort. AEDI, Australian Early Development Index; NSW, New South
+                                          Wales; 1, defined by the date of birth range from the 2009 and 2012 NSW AEDI data; 2, unable to ascertain numbers from linked
+                                          data sources included in this study.
+                                       </p>
+    <p>To define and contextualise the study cohort in relation to the whole population, we will first identify children who were
+                                    born in NSW (ascertained from the PDC and RBDM) who could potentially have started school in 2009 or 2012 (henceforth referred
+                                    to as the &#8216;potential school starter population&#8217;). The criteria for potential school starters will be a date of birth that
+                                    lies within the date of birth ranges in the AEDI data for children who started school in NSW in 2009 and 2012. If a potential
+                                    school starter does not have an AEDI record completed in an NSW school in 2009 or 2012, it is possible that they: (1) started
+                                    school in the year before or after the AEDI data collection year, particularly if their birth date lies at the upper or lower
+                                    ends of the range; (2) started school in another Australian state where their teacher may or may not have completed the AEDI
+                                    on their behalf; (3) migrated overseas prior to starting school; or (4) may have died during early childhood. From the linked
+                                    data in our study, we will ascertain the majority of children who started school in another state via linkage to the national
+                                    AEDI data collection. We will ascertain the number of children from the potential school starter population who died during
+                                    early childhood from the RBDM and the NDI. However, we will not be able to ascertain the number of potential school starters
+                                    who started school in years other than 2009 or 2012, started school interstate but have no AEDI record, or migrated or died
+                                    overseas during early childhood.
+                                 </p>
+    <p>Children in the NSW school starter population who do not link to a birth record in the NSW PDC or RBDM will include those
+                                    (1) born interstate or in another country (which can be ascertained from the &#8216;Place of Birth&#8217; variable in the AEDI data collection);
+                                    or (2) born in NSW but had linkage errors or no birth record in the PDC or RBDM. Of note, residential address was not recorded
+                                    in the 2009 AEDI data, which is problematic for linkage purposes when there is more than one child with the same name attending
+                                    the same school. However, residential address was recorded in the 2012 AEDI data, which is likely to improve AEDI and PDC/RBDM
+                                    linkages.
+                                 </p>
+    <p>In summary, the total study population includes the previously defined potential school starter population (for 2009 and 2012)
+                                    and the NSW school starter population in 2009 and 2012 (&lt;a class="xref-fig" href="#F2" id="xref-fig-2-2"&gt;figure 2&lt;/a&gt;), with the study cohort referring to children who have data available from birth to school age. Among the study population,
+                                    siblings&#8212;defined as children born to the same mother&#8212;will be identified via linkage to the PDC (mother and baby records) and
+                                    the RBDM birth registrations. We will not request identification of siblings who are not already part of the study population.
+                                    Parents of children in the study population will also be identified via linkage to the PDC (mother and baby records) and the
+                                    RBDM birth registrations.
+                                 </p>
+    <p>The Centre for Health Record Linkage (CHeReL) will conduct the first linkage for this study, which will involve identification
+                                    of the study population through linkage of the AEDI to the PDC and the RBDM birth registrations, followed by identification
+                                    of records that link to the study population (or their parents) from the AEDI, PDC, RBDM, RoCC, APDC, EDDC, MH-AMB and KiDS
+                                    data collections. The Australian Institute of Health and Welfare (AIHW) Data Integration Services Centre will conduct the
+                                    second linkage for this study. This will involve linking the study population (identified during the first linkage) to the
+                                    MBS, Centrelink and the NDI data collections.
+                                 </p>
+    <p>For both linkages, probabilistic matching methods will be used to link records using identifiers (including name, date of
+                                    birth, sex and address) and the separation principle will be applied. The CHeReL applies the separation process by data custodians
+                                    supplying identifying data to linkage units and (de-identified) content data directly to researchers. This has previously
+                                    been described as the &#8216;best practice protocol&#8217; for preserving individual privacy.&lt;a class="xref-bibr" href="#ref-50" id="xref-ref-50-1"&gt;50&lt;/a&gt; Quality assurance data show false-positive and false-negative rates of 0.04% and &amp;lt;0.05%, respectively, in NSW.&lt;a class="xref-bibr" href="#ref-51" id="xref-ref-51-1"&gt;51&lt;/a&gt; In contrast, the AIHW conducts &#8216;linkage&#8217; and &#8216;merging&#8217; as two separate and distinct operations within the one agency, applying
+                                    the separation principle in an alternative method endorsed by the Commonwealth.&lt;a class="xref-bibr" href="#ref-52" id="xref-ref-52-1"&gt;52&lt;/a&gt;</p>
+    <p>The outcome variable for these analyses is early childhood development in the child's first year of full-time school, as measured
+                                       by the AEDI. AEDI scores range from 0 (low ability) to 10 (high ability) for each of five early childhood development domains:
+                                       (1) physical health and well-being; (2) social competence; (3) emotional maturity; (4) language and cognitive skills; and
+                                       (5) communication skills and general knowledge. These scores will be analysed as continuous outcomes, with appropriate checking
+                                       of model assumptions because the data are negatively skewed. AEDI scores will also be transformed into dichotomised outcomes
+                                       based on whether the child's score on each domain qualifies as developmentally &#8216;on track&#8217; (ie, above the 25th centile) or
+                                       not, or &#8216;vulnerable&#8217; (ie, below the 10th centile) or not. Aggregate dichotomised outcome variables will also be constructed
+                                       to compare children who were developmentally on track on all five domains, or developmentally vulnerable on any of the five
+                                       domains, with all other children. Where there are differences in domain outcomes between comparison groups (eg, Aboriginal
+                                       and non-Aboriginal children, or children exposed to a programme or not), we will explore whether differences in specific AEDI
+                                       subdomain variables underlie differences at the domain level.
+                                    </p>
+    <p>Individual-level explanatory variables will include:</p>
+    <p>&lt;em&gt;Demographic and socioeconomic factors&lt;/em&gt;: age, sex, Aboriginality, language/s spoken at home, country of birth, mobility indicator (derived from change of address
+                                       recorded in MBS data), carer receipt of income assistance payments and private health insurance status.
+                                    </p>
+    <p>&lt;em&gt;Parental characteristics&lt;/em&gt;: maternal age at child's birth, maternal age at first birth, marital status, country of birth and Aboriginality; paternal
+                                       Aboriginality; and parental health (including mental health) and history of drug and alcohol problems for the 5&#8197;years prior
+                                       to the child's birth (where available).
+                                    </p>
+    <p>&lt;em&gt;Health status&lt;/em&gt;: congenital conditions within the first year of life and morbidity indicators. Morbidity indicators will be constructed from
+                                       APDC and EDDC diagnoses for important childhood conditions that may impact on development, such as age of first ventilation
+                                       tube insertion (to drain middle ear fluid for children with otitis media), number of ventilation tube insertion procedures
+                                       and number of condition-specific hospital admissions (eg, asthma, injury, gastroenteritis).
+                                    </p>
+    <p>&lt;em&gt;Early childhood learning indicators&lt;/em&gt;: regular non-parental care and/or participation in other educational programmes or playgroup before entering school, active
+                                       engagement of caregivers in the school and reading encouraged at home.
+                                    </p>
+    <p>&lt;em&gt;Health service use indicators&lt;/em&gt;: number of GP visits; number of ED presentations; number of hospital admissions; usual provider continuity index (proportion
+                                       of visits to most frequently seen GP provider); continuity of care index (derived from number of different GP providers seen
+                                       and number of visits to each).&lt;a class="xref-bibr" href="#ref-53" id="xref-ref-53-1"&gt;53&lt;/a&gt; Annual averages will be categorised for analysis (eg, high, medium and low frequencies).
+                                    </p>
+    <p>&lt;em&gt;Child protection information&lt;/em&gt;: whether or not a child has been assessed by FACS as being at actual harm/at risk of harm, whether or not a child has lived
+                                       in out-of-home care and whether a child and their family has participated in the Brighter Futures Program.
+                                    </p>
+    <p>Area-level explanatory variables will include: accessibility and remoteness, as measured by the Accessibility/Remoteness Index
+                                       of Australia Plus (ARIA+);&lt;a class="xref-bibr" href="#ref-54" id="xref-ref-54-1"&gt;54&lt;/a&gt; socioeconomic disadvantage, as measured by the Australian Bureau of Statistics (ABS) Socioeconomic Indexes for Areas (SEIFA);&lt;a class="xref-bibr" href="#ref-55" id="xref-ref-55-1"&gt;55&lt;/a&gt; presence of Aboriginal Medical Services; presence of an AMIHS; proportion of Aboriginal pregnancies/births in an area managed
+                                       by an AMIHS; numbers of Aboriginal and non-Aboriginal children attending preschool; numbers of full-time equivalent health
+                                       workers (including general medical practitioners, nurses, midwives and Aboriginal health workers) per 10&#8197;000 population; measures
+                                       of social capital from the NSW Population Health Survey;&lt;a class="xref-bibr" href="#ref-56" id="xref-ref-56-1"&gt;56&lt;/a&gt; features of local communities (derived from ABS Census data), such as information on median personal and household income,
+                                       mortgage repayment and rent; average number of persons per bedroom and household size; employment; non-school qualifications
+                                       and housing type for Aboriginal residents in each area.&lt;a class="xref-bibr" href="#ref-57" id="xref-ref-57-1"&gt;57&lt;/a&gt;</p>
+    <p>Separate multilevel models will be developed for each of our outcomes, using an iterative process. Models will mostly have
+                                       two levels: the individual child and the area where they live. We will build the models in two stages. First, the variation
+                                       in the outcomes will be partitioned to determine how much can be attributed to the individual child or the area where they
+                                       live;&lt;a class="xref-bibr" href="#ref-58" id="xref-ref-58-1"&gt;58&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-59" id="xref-ref-59-1"&gt;59&lt;/a&gt; linked information about siblings will be used to explore an additional third family level in the models. Second, we will
+                                       enter explanatory variables into the models to determine which factors have the most influence on outcomes and inequalities
+                                       in these outcomes between Aboriginal and non-Aboriginal children.
+                                    </p>
+    <p>Statistical analysis will be performed using SAS V.9.3 and MLwiN V.2.6. Continuous and dichotomous outcomes for the five AEDI
+                                       domains and the aggregate AEDI measure will be modelled separately using multilevel linear and logistic regression, respectively.
+                                       For each outcome, we will build models separately for Aboriginal children and for all children, in which the Aboriginal to
+                                       non-Aboriginal outcome ratio/difference will represent inequality in developmental outcomes. In each multilevel model, we
+                                       will allow the outcome to vary by geographic area (random intercept) and, in the all children model, the Aboriginal to non-Aboriginal
+                                       ratio to vary (random slope), enabling us to identify areas that are performing better or worse in terms of early childhood
+                                       developmental outcomes, and areas with greater or lesser inequality in these outcomes. For siblings, we will estimate both
+                                       child-level and family-level variation. We will explore whether the between-family variation needs to be estimated separately
+                                       for families with and without siblings, or whether it can be generalised across all families.&lt;a class="xref-bibr" href="#ref-59" id="xref-ref-59-2"&gt;59&lt;/a&gt;</p>
+    <p>The following analyses are designed to deal with two common scenarios in the assessment of &#8216;real-world&#8217; programmes. The first
+                                    is when a programme is rolled out in a non-random fashion on an area basis and only area-level data on service provision are
+                                    available (AMIHS). The second is when a programme is rolled out in a non-random fashion and data are collected on individuals
+                                    who used the programme, but not those who did not participate (Brighter Futures). We identified these programmes as potential
+                                    targets for investigation through consultation with various agencies, including NSW Kids and Families and FACS.
+                                 </p>
+    <p>An AMIHS consists of a community midwife and Aboriginal health worker team who provide community-based services to pregnant
+                                       Aboriginal women in conjunction with existing medical, midwifery, paediatric and child and family health staff. AMIHSs were
+                                       established in specific areas in a non-randomised manner. In 2001, AMIHSs were established in seven locations and provided
+                                       services in 24 Local Government Areas (LGAs). Factors that influenced the choice of location were the annual numbers of Aboriginal
+                                       births and availability of existing services. In 2007, the AMIHS was expanded to an extra 17 locations that offered services
+                                       in an additional 46 LGAs. Of interest is whether: (1) pregnancy and birth outcomes for Aboriginal mothers and their babies,
+                                       and (2) early childhood developmental outcomes for Aboriginal children, were better in areas where an AMIHS was established
+                                       compared with similar areas.
+                                    </p>
+    <p>For the purposes of our analyses, mothers and their children will be allocated to the intervention group on an intention-to-treat
+                                       basis whereby those living in an area with an AMIHS at the time of the birth will be considered &#8216;exposed&#8217;. We intend to identify
+                                       &#8216;unexposed&#8217; comparison areas using propensity score matching methods.&lt;a class="xref-bibr" href="#ref-60" id="xref-ref-60-1"&gt;60&lt;/a&gt; These methods aim to reduce the impact of confounding on the study outcome when the exposure has not been randomly allocated.
+                                       We will use logistic regression to model the area characteristics that are associated with having an AMIHS. Propensity-matched
+                                       &#8216;unexposed&#8217; areas will be those that have a similar propensity to receive an AMIHS, based on their sociodemographic characteristics,
+                                       but did not receive the service.&lt;a class="xref-bibr" href="#ref-43" id="xref-ref-43-2"&gt;43&lt;/a&gt; We will use area-level characteristics as described for research questions 1 and 2 (eg, socioeconomic indicators, accessibility,
+                                       proportion of Aboriginal residents), plus others that are specifically relevant to perinatal services (eg, level of local
+                                       maternity services, birth rates, birth outcomes prior to the AMIHS). The statistical power will be constrained by the number
+                                       of areas with an AMIHS and the number of births to Aboriginal mothers in these areas. However, this real-world evaluation
+                                       will use whole-of-population data for the two birth/school starter cohorts in our study population.
+                                    </p>
+    <p>The primary outcome of interest is early development in the first year of full-time school, as measured by the AEDI. For example,
+                                       whether a child was developmentally &#8216;on track&#8217; or not, or &#8216;vulnerable&#8217; or not, on each AEDI domain and on any domain, as described
+                                       in the methods for objectives 1 and 2. Secondary outcomes of interest include pregnancy and birth outcomes for Aboriginal
+                                       mothers and babies in the study cohort, including: numbers of pregnant Aboriginal women who had their first antenatal visit
+                                       before 20&#8197;weeks gestation; number of pregnant Aboriginal women who were smoking during the second half of their pregnancy;
+                                       numbers of Aboriginal infants who were born preterm (less than 37&#8197;weeks gestation), with a low birth weight (less than 2500&#8197;g),
+                                       small for gestational age and large for gestational age.
+                                    </p>
+    <p>We will use two-level multilevel linear and logistic regression models (mothers and babies nested within areas) to compare
+                                       outcomes between individuals living in an AMIHS area compared with individuals who live in a propensity-matched comparison
+                                       area, using an intention-to-treat approach.
+                                    </p>
+    <p>Brighter Futures is a voluntary, targeted early intervention programme for families with children, or who are expecting a
+                                       child, that aims to prevent vulnerable children and families from entering the child protection system through provision of
+                                       intervention and support that will achieve long-term benefits for the children.&lt;a class="xref-bibr" href="#ref-46" id="xref-ref-46-2"&gt;46&lt;/a&gt; The programme provides a range of tailored services including case management, casework focused on parent vulnerabilities,
+                                       structured home visiting, quality children's services, parenting programmes and brokerage funds. Families may enter the programme
+                                       following a report via the Child Protection Helpline, or referral from an AMIHS or partner agency.
+                                    </p>
+    <p>Families eligible for the Brighter Futures Program require, on average, 12&#8197;months of sustained case management for the delivery
+                                       of coordinated services and support to meet individual and family needs. To be eligible for the program, families must have
+                                       at least one child under the age of 9, or be expecting a child, and have at least one of the following parental vulnerabilities
+                                       which impact adversely on their capacity to parent and/or the child's safety and well-being; domestic violence, drug or alcohol
+                                       misuse, parental mental health issues, lack of parenting skills or inadequate supervision, parent(s) with significant learning
+                                       difficulties or intellectual disability.
+                                    </p>
+    <p>The programme has been progressively rolled out since 2003/2004. Data on individuals who participated in the programme from
+                                       July 2007&#8212;December 2009 were included in the Brighter Futures evaluation undertaken by the Social Policy Research Centre at
+                                       the University of New South Wales. The programme was initially delivered by FACS and partner agencies in NSW. In January 2012,
+                                       key programme changes included the delivery of the programme by 16 non-government agencies, streamlined referral pathways
+                                       and refocusing the programme to target families with children (0&#8211;8&#8197;years of age) at high risk of entering the statutory child
+                                       protection system. These decisions are consistent with outcomes of the Brighter Futures evaluation and subsequent data analysis
+                                       by FACS, which indicate that Brighter Futures can improve the safety of children in high-risk families with complex needs.
+                                    </p>
+    <p>Of interest is whether children who participated in the Brighter Futures Program have better early developmental outcomes
+                                       at school entry than a comparison group of children who did not participate in the Brighter Futures Program.
+                                    </p>
+    <p>On the basis of the 2009&#8211;2011 Brighter Futures Program participation data,&lt;a class="xref-bibr" href="#ref-61" id="xref-ref-61-1"&gt;61&lt;/a&gt; we estimate that 4350&#8211;8700 children in the study population have participated in the programme during the study period, of
+                                       whom 1150&#8211;2400 (&#8764;27%) were Aboriginal (assuming equal numbers of children in 1&#8197;year age groups and a maximum of 2&#8197;years programme
+                                       participation). We will use two comparison groups for this analysis: (1) children recorded in the KiDS database as eligible
+                                       for the Brighter Futures Program who did not participate; and (2) a propensity-matched comparison group from the whole study
+                                       population, matched on individual-level characteristics similar to those outlined in the methods to address objectives 1 and
+                                       2.
+                                    </p>
+    <p>The analysis outcome will be continuous and dichotomised early development outcomes (eg, developmentally &#8216;on track&#8217; or not,
+                                       or &#8216;vulnerable&#8217; or not) for each AEDI domain and on any domain. We will use two-level multilevel logistic regression models
+                                       (children within areas) to compare early development outcomes for those children who entered the programme with the comparison
+                                       groups, controlling for area characteristics.
+                                    </p>
+    <p>We will also explore the possibility of comparing children who have been exposed to both the Brighter Futures and AMIHS programmes
+                                       with children who have only been exposed to one programme or none. Programmes are typically evaluated in isolation, but this
+                                       is not how they are experienced in real life by families. For example, one of the three referral pathways for the Brighter
+                                       Futures Program is via the AMIHS, so a substantial group of children have been exposed to both programmes from the prenatal
+                                       period. This continuation of support via involvement in sequential programmes throughout early childhood is likely to lead
+                                       to better developmental outcomes, particularly for vulnerable and disadvantaged children.
+                                    </p>
+    <p>The study includes whole-of-population data for the two birth/school starter cohorts, as defined previously. On the basis
+                                    of published AEDI data,&lt;a class="xref-bibr" href="#ref-12" id="xref-ref-12-5"&gt;12&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-13" id="xref-ref-13-5"&gt;13&lt;/a&gt; the study population will comprise approximately 181&#8197;500 children, of whom almost 9000 will be Aboriginal. Analysis of NSW
+                                    hospital data suggests that there will be approximately 9500 families with siblings in the 2009 and 2012 AEDI cohorts (including
+                                    430 Aboriginal families), and published birth data indicate that there will be approximately 2500 families with twins (including
+                                    75 Aboriginal families). Among Aboriginal children, we estimate: 4300&#8211;4850 children will score as developmentally on track
+                                    and 900&#8211;1350 children will score as developmentally vulnerable on each of the five AEDI domains. Around 2800 (39%) Aboriginal
+                                    children will score as developmentally vulnerable on one or more domains. For multilevel models, the numbers of units at higher
+                                    levels (ie, area and families) are also important. We will have a minimum of 12&#8197;000 families and 151 areas in our models.
+                                 </p>
+    <p>Using publicly available community-level AEDI data,&lt;a class="xref-bibr" href="#ref-62" id="xref-ref-62-1"&gt;62&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-63" id="xref-ref-63-1"&gt;63&lt;/a&gt; we ran a two-level multilevel logistic regression model for one aggregate developmental outcome measure (ie, risk of developmental
+                                    vulnerability; &lt;a class="xref-fig" href="#F3" id="xref-fig-3-1"&gt;figure 3&lt;/a&gt;A) and an example simulation (&lt;a class="xref-fig" href="#F3" id="xref-fig-3-2"&gt;figure 3&lt;/a&gt;B) using a total sample of 181&#8197;500, with the proportion of Aboriginal children in each LGA derived from ABS estimates.&lt;a class="xref-bibr" href="#ref-64" id="xref-ref-64-1"&gt;64&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-65" id="xref-ref-65-1"&gt;65&lt;/a&gt; Binomial outcome data were simulated assuming a baseline risk of being vulnerable of 21% and a community-level random effect
+                                    based on the actual variation in the published data (&lt;a class="xref-fig" href="#F3" id="xref-fig-3-3"&gt;figure 3&lt;/a&gt;A). The empirical power calculations from these simulations (1000 replications for each data point) indicate that we will
+                                    have 80% power to detect an OR of 1.075 and 90% power to detect an OR of 1.09 (&lt;a class="xref-fig" href="#F3" id="xref-fig-3-4"&gt;figure 3&lt;/a&gt;B) equivalent to a risk of being vulnerable of 22.6% and 22.9%, respectively, among Aboriginal children. Power will be similar
+                                    for other outcomes, such as the odds of being developmentally on track.
+                                 </p>
+    <p>(A) Variation in the proportion of developmentally vulnerable children by Local Government Area in 2009 and 2012, and (B)
+                                          empirical power from simulations for ORs between 1.00 and 1.15.
+                                       </p>
+    <p>To enhance the translation of the project's findings into policy and practice, a reference group will be convened comprising
+                                    policy stakeholders and organisations involved in providing healthcare, community services, welfare and education to Aboriginal
+                                    and non-Aboriginal children in NSW. During the final stages of the project, we will also hold a policy forum to promote academic,
+                                    professional and public discussion on policy and practice issues arising from the project. Outputs from the project will include
+                                    scientific papers, summary reports in formats designed for policy audiences and presentations at conferences, collaborator
+                                    meetings and reference group meetings.
+                                 </p>
+    <p>Promoting positive early childhood development in Aboriginal children is a key priority for Australia, and yet we have little
+                                 information about the factors that drive it, and little evidence regarding what programmes and services are effective. The
+                                 Seeding Success Study will provide evidence that addresses these deficits. Capitalising on recent developments in the availability
+                                 of linked data relating to child development, health and community services, our study will bring together comprehensive population
+                                 data relating to social and demographic factors, perinatal factors, health in early childhood, use of early childhood services
+                                 and child development at school entry for Aboriginal children in NSW. Our study's use of whole-of-population data is one of
+                                 its greatest strengths. It maximises statistical power while minimising selection bias associated with traditional cohort
+                                 studies. The large size of the study population (including &#8764;7800 Aboriginal children) has the additional benefit of increasing
+                                 the &#8216;visibility&#8217; of the early life experiences of Aboriginal children. In this way, our study is a useful adjunct to smaller
+                                 scale epidemiological studies that recruit relatively small numbers of Aboriginal children and may lack the power to detect
+                                 important relationships between exposures and outcomes in this group. Moreover, the use of whole-of-population data in a large
+                                 and geographically diverse setting, where Aboriginal children are distributed across metropolitan, regional and remote locations,
+                                 will enable us to explore geographic variation in positive early childhood health and development outcomes in Aboriginal children,
+                                 as well as area-level factors that might explain this variation.
+                              </p>
+    <p>An additional strength of this study is its application of quasi-experimental observational methodologies to linked population
+                                 data to assess the impact of two &#8216;real-world&#8217; programmes/services, which has important implications for policy and practice.
+                                 Through well-developed mechanisms for stakeholder engagement and transfer to policy and practice, we will work in partnership
+                                 with communities, Aboriginal organisations and policymakers to inform the development, targeting and evaluation of programmes
+                                 and services that will work to &#8216;seed success&#8217; and maximise Aboriginal children's health, well-being and potential.
+                              </p>
+    <p>Although the use of routinely collected population data has a number of advantages, there are also limitations. An important
+                                 consideration in this study is that Aboriginal people are known to be underenumerated in the NSW hospital data&lt;a class="xref-bibr" href="#ref-66" id="xref-ref-66-1"&gt;66&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-67" id="xref-ref-67-1"&gt;67&lt;/a&gt; and death registration data.&lt;a class="xref-bibr" href="#ref-68" id="xref-ref-68-1"&gt;68&lt;/a&gt; It is also known that the misclassification errors are not randomly distributed and that recording of Aboriginal status has
+                                 improved over time in the hospital data.&lt;a class="xref-bibr" href="#ref-66" id="xref-ref-66-2"&gt;66&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-67" id="xref-ref-67-2"&gt;67&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-69" id="xref-ref-69-1"&gt;69&lt;/a&gt; It is likely that Aboriginal people are under-recorded in the other linked data sources in this study too. Our study design
+                                 aims to minimise the impact of this limitation on our findings. First, we will capitalise on the linkage of data from multiple
+                                 sectors and agencies that will enable us to obtain multiple indicators of Aboriginal status. This has previously been shown
+                                 to improve the enumeration of Aboriginal people.&lt;a class="xref-bibr" href="#ref-68" id="xref-ref-68-2"&gt;68&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-70" id="xref-ref-70-1"&gt;70&lt;/a&gt; We will investigate the application of different Aboriginal identification algorithms using multiple data sources,&lt;a class="xref-bibr" href="#ref-68" id="xref-ref-68-3"&gt;68&#8211;71&lt;/a&gt; balanced against the likelihood of introducing differential misclassification bias related to the number and recency of contact
+                                 with health services. Second, we will use a cohort approach in our study, which means that under-recording of Aboriginal status
+                                 will affect the numerator and the denominator, as opposed to the numerator only, which is the case when population rates are
+                                 estimated using census data as the denominator. In this way, the impact of the under-recording of Aboriginal status on study
+                                 findings will be minimised.
+                              </p>
+    <p>The authors would like to thank the Australian Government Department of Education, the NSW Ministry of Health, the NSW Register
+                                 of Births, Deaths and Marriages and the NSW Department of Family and Community Services (FACS) for allowing access to the
+                                 data. They also thank the Australian Institute of Health and Welfare (AIHW), Medicare Australia and the Australian Government
+                                 Departments of Health, Human Services and Social Services for discussing access to data, as well as the NSW Centre for Health
+                                 Record Linkage and the AIHW Data Integration Services Centre for conducting the linkage of records. The authors acknowledge
+                                 contributions from Caitlin McDowell (FACS) relating to the Brighter Futures component of the research.
+                              </p>
+    <p>&lt;span class="fn-label"&gt;Collaborators&lt;/span&gt; The Seeding Success Investigator team comprises LJ, KF, SE, JL, EB, MB, RC, KE, DR, Sharon Goldfeld, Alastair Leyland, Elizabeth
+                                       Best and Marilyn Chilvers.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Contributors&lt;/span&gt; KF and LJ had overall responsibility for the conception of this study with scientific input from the chief investigators.
+                                       DR contributed expertise in the development of the statistical analysis plan for the study. KF led the writing of this paper.
+                                       All authors contributed to the design of the study, the writing of this paper and approved the final draft.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Funding&lt;/span&gt; This work was supported by the National Health and Medical Research Council (NHMRC) (grant number 1061713). KF was supported
+                                       by an NHMRC Early Career Fellowship (#1016475) and an NHMRC capacity building grant (#573122). EB was supported by an NHMRC
+                                       Senior Research Fellowship (#1042717). SE was supported by an NHMRC Career Development Fellowship (# 1013418). JL was supported
+                                       by an Australia Fellowship from the NHMRC (#570120). MB was supported by the Manitoba Center for Health Policy Population-Based
+                                       Child Health Research Award. KE was funded by an NHMRC Early Career Fellowship (#634533).
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Competing interests&lt;/span&gt; None declared.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Ethics approval&lt;/span&gt; NSW Population and Health Services Research Ethics Committee; The Aboriginal Health and Medical Research Council of NSW Ethics
+                                       Committee; and the University of Western Sydney and Australian National University Human Research Ethics Committees.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Provenance and peer review&lt;/span&gt; Not commissioned; externally peer reviewed.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Data sharing statement&lt;/span&gt; This study will use linked records from the data sets detailed in the study protocol, for children who started school in
+                                       New South Wales (NSW), Australia, in 2009 and 2012, as well as those children born in NSW who might have started school in
+                                       2009 or 2012. These data are available to researchers on request and subject to approval from the relevant data custodians
+                                       and ethics committees, and via linkage conducted by the NSW Centre for Health Record Linkage (&lt;a href="http://www.cherel.org.au"&gt;http://www.cherel.org.au&lt;/a&gt;) or the Australian Institute of Health and Welfare Data Integration Services Centre (&lt;a href="http://www.aihw.gov.au/organisation-detail/?id=10737420129"&gt;http://www.aihw.gov.au/organisation-detail/?id=10737420129&lt;/a&gt;).
+                                    </p>
+    <p>This is an Open Access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0)
+                                 license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative
+                                 works on different terms, provided the original work is properly cited and the use is non-commercial. See: &lt;a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"&gt;http://creativecommons.org/licenses/by-nc/4.0/&lt;/a&gt;</p>
+  </body>
+  <references>
+    <reference collaboration="Australian Institute of Health and Welfare" jnl-abbrev="The health and welfare of Australia's Aboriginal and Torres Strait Islander people: an overview 2011" publ-location="Canberra" publ-name="AIHW" publ-date="2011"/>
+    <reference name-author-1="Freemantle,CJ" name-author-2="Read,AW" name-author-3="de Klerk,NH" jnl-abbrev="Lancet" publ-date="2006" link="http://dx.doi.org/10.1016/S0140-6736(06)68771-0"/>
+    <reference collaboration="Population Health Division" jnl-abbrev="The health of the people of New South Wales: report of the Chief Health Officer 2008" publ-location="Sydney" publ-name="Population Health Division, NSW Department of Health" publ-date="2008"/>
+    <reference name-author-1="de Jong,M" name-author-2="Verhoeven,M" name-author-3="van Baar,AL" jnl-abbrev="Semin Fetal Neonatal Med" publ-date="2012" link="http://dx.doi.org/10.1016/j.siny.2012.02.003"/>
+    <reference name-author-1="Jefferis,BJ" name-author-2="Power,C" name-author-3="Hertzman,C" jnl-abbrev="BMJ" publ-date="2002" link="http://dx.doi.org/10.1136/bmj.325.7359.305"/>
+    <reference name-author-1="Richards,M" name-author-2="Hardy,R" name-author-3="Kuh,D" jnl-abbrev="BMJ" publ-date="2001" link="http://dx.doi.org/10.1136/bmj.322.7280.199"/>
+    <reference name-author-1="Comino,E" name-author-2="Knight,J" name-author-3="Webster,V" jnl-abbrev="Matern Child Health J" publ-date="2012" link="http://dx.doi.org/10.1007/s10995-011-0789-6"/>
+    <reference name-author-1="Langridge,AT" name-author-2="Li,J" name-author-3="Nassar,N" jnl-abbrev="Ann Epidemiol" publ-date="2011" link="http://dx.doi.org/10.1016/j.annepidem.2011.02.009"/>
+    <reference name-author-1="Langridge,AT" name-author-2="Nassar,N" name-author-3="Li,J" jnl-abbrev="Paediatr Perinat Epidemiol" publ-date="2010" link="http://dx.doi.org/10.1111/j.1365-3016.2010.01124.x"/>
+    <reference collaboration="Australian Bureau of Statistics" jnl-abbrev="Births, summary, remoteness areas, indigenous status&#8212;2012&#8211;2013" publ-location="Canberra" publ-name="Australian Bureau of Statistics" publ-date="2014"/>
+    <reference collaboration="Australian Bureau of Statistics" jnl-abbrev="Australian Demographic Statistics" publ-location="Canberra" publ-name="Australian Bureau of Statistics" publ-date="2014"/>
+    <reference collaboration="Australian Government" jnl-abbrev="A snapshot of early childhood development in Australia 2012&#8212;Australian Early Development Index (AEDI) National Report" publ-location="Canberra" publ-name="Australian Government" publ-date="2012"/>
+    <reference collaboration="Centre for Community Child Health and Telethon Institute for Child Health Research" jnl-abbrev="A snapshot of early childhood development in Australia: the AEDI National Report 2009" publ-location="Canberra" publ-name="Centre for Community Child Health and Telethon Institute for Child Health Research" publ-date="2009"/>
+    <reference name-author-1="Brinkman,SA" name-author-2="Gialamas,A" name-author-3="Rahman,A" jnl-abbrev="BMJ Open" publ-date="2012" link="http://dx.doi.org/10.1136/bmjopen-2012-001075"/>
+    <reference name-author-1="Leigh,A" name-author-2="Gong,X" jnl-abbrev="Educ Econ" publ-date="2009" link="http://dx.doi.org/10.1080/09645290802069418"/>
+    <reference collaboration="Australian Curriculum Assessment and Reporting Authority" jnl-abbrev="NAPLAN achievement in reading, persuasive writing, language conventions and numeracy: National Report for 2012" publ-location="Sydney" publ-name="Australian Curriculum, Assessment and Reporting Authority" publ-date="2012"/>
+    <reference name-author-1="De Bortoli,L" name-author-2="Thomson,S" publ-name="OECD Programme for International Student Assessment (PISA)" publ-date="2010"/>
+    <reference collaboration="Department of Education, Employment and Workplace Relations" jnl-abbrev="National report to parliament on Indigenous education science and training, 2006" publ-location="Canberra" publ-name="Department of Education, Employment, and Workplace Relations" publ-date="2008"/>
+    <reference name-author-1="Dreise,T" name-author-2="Thomson,S" source="Unfinished business: PISA shows Indigenous youth are being left behind" publ-location="Melbourne" publ-name="Australian Council for Educational Research Occasional Essays" publ-date="2014"/>
+    <reference name-author-1="Thomson,S" name-author-2="De Bortoli,L" name-author-3="Buckley,S" source="PISA 2012: how Australia measures up" publ-location="Melbourne" publ-name="Australian Council for Educational Research" publ-date="2013"/>
+    <reference collaboration="Australian Bureau of Statistics" jnl-abbrev="The health and welfare of Australia's Aboriginal and Torres Strait Islander peoples" publ-location="Canberra" publ-name="ABS" publ-date="2010"/>
+    <reference collaboration="Department of Families, Housing, Community Services and Indigenous Affairs" jnl-abbrev="Closing the gap: Prime Minister's report 2010" publ-location="Canberra" publ-name="Department of Families, Housing, Community Services and Indigenous affairs" publ-date="2010"/>
+    <reference collaboration="Department of Families, Housing, Community Services and Indigenous Affairs" jnl-abbrev="Closing the gap: Prime Minister's report 2013" publ-location="Canberra" publ-name="Department of Families, Housing, Community Services and Indigenous affairs" publ-date="2013"/>
+    <reference name-author-1="Ware,V" jnl-abbrev="Improving access to urban and regional early childhood services" publ-location="Canberra" publ-name="Australian Institute of Health and Welfare &amp;amp; Melbourne: Australian Institute of Family Studies" publ-date="2012"/>
+    <reference name-author-1="Hertzman,C" jnl-abbrev="Healthc Policy" publ-date="2011"/>
+    <reference name-author-1="Stanley,F" name-author-2="Glauert,R" name-author-3="McKenzie,A" jnl-abbrev="Healthc Policy" publ-date="2011"/>
+    <reference name-author-1="Brownell,MD" name-author-2="Jutte,DP" jnl-abbrev="Child Abuse Negl" publ-date="2013" link="http://dx.doi.org/10.1016/j.chiabu.2012.09.013"/>
+    <reference name-author-1="Lynch,JW" name-author-2="Law,C" name-author-3="Brinkman,S" jnl-abbrev="Soc Sci Med" publ-date="2010" link="http://dx.doi.org/10.1016/j.socscimed.2010.07.008"/>
+    <reference name-author-1="Nickel,NC" name-author-2="Chateau,DG" name-author-3="Martens,PJ" jnl-abbrev="Int J Epidemiol" publ-date="2014" link="http://dx.doi.org/10.1093/ije/dyu190"/>
+    <reference name-author-1="Malacova,E" name-author-2="Li,J" name-author-3="Blair,E" jnl-abbrev="Am J Epidemiol" publ-date="2008" link="http://dx.doi.org/10.1093/aje/kwn085"/>
+    <reference name-author-1="Malacova,E" name-author-2="Li,J" name-author-3="Blair,E" jnl-abbrev="J Epidemiol Community Health" publ-date="2009" link="http://dx.doi.org/10.1136/jech.2008.086033"/>
+    <reference name-author-1="O'Donnell,M" name-author-2="Nassar,N" name-author-3="Jacoby,P" jnl-abbrev="J Paediatr Child Health" publ-date="2012" link="http://dx.doi.org/10.1111/j.1440-1754.2011.02189.x"/>
+    <reference name-author-1="O'Donnell,M" name-author-2="Nassar,N" name-author-3="Leonard,H" jnl-abbrev="Pediatrics" publ-date="2009" link="http://dx.doi.org/10.1542/peds.2008-2888"/>
+    <reference name-author-1="O'Donnell,M" name-author-2="Nassar,N" name-author-3="Leonard,H" jnl-abbrev="Int J Epidemiol" publ-date="2010" link="http://dx.doi.org/10.1093/ije/dyq005"/>
+    <reference name-author-1="O'Donnell,M" name-author-2="Nassar,N" name-author-3="Leonard,H" jnl-abbrev="Child Abuse Negl" publ-date="2010" link="http://dx.doi.org/10.1016/j.chiabu.2010.04.003"/>
+    <reference name-author-1="O'Donnell,M" name-author-2="Nassar,N" name-author-3="Leonard,HM" jnl-abbrev="Med J Aust" publ-date="2010"/>
+    <reference name-author-1="Pilkington,R" name-author-2="Scalzi,D" name-author-3="Gialamas,A" jnl-abbrev="The South Australian Early Childhood Health and Development Project: initial report" publ-location="Adelaide" publ-name="The University of Adelaide" publ-date="2014"/>
+    <reference name-author-1="Brinkman,SA" name-author-2="Silburn,S" name-author-3="Lawrence,D" jnl-abbrev="Early Educ Dev" publ-date="2007" link="http://dx.doi.org/10.1080/10409280701610812"/>
+    <reference name-author-1="Craig,P" name-author-2="Cooper,C" name-author-3="Gunnell,D" jnl-abbrev="J Epidemiol Community Health" publ-date="2012" link="http://dx.doi.org/10.1136/jech-2011-200375"/>
+    <reference name-author-1="Barnes,J" name-author-2="Belsky,J" name-author-3="Broomfield,KA" jnl-abbrev="J Child Psychol Psychiatry" publ-date="2005" link="http://dx.doi.org/10.1111/j.1469-7610.2004.00392.x"/>
+    <reference name-author-1="Brownell,MD" name-author-2="Chartier,M" name-author-3="Au,W" jnl-abbrev="BMC Public Health" publ-date="2011" link="http://dx.doi.org/10.1186/1471-2458-11-691"/>
+    <reference name-author-1="Brownell,MD" name-author-2="Chartier,M" name-author-3="Santos,R" jnl-abbrev="Child Maltreat" publ-date="2011" link="http://dx.doi.org/10.1177/1077559511422942"/>
+    <reference name-author-1="Melhuish,E" name-author-2="Belsky,J" name-author-3="Leyland,AH" jnl-abbrev="Lancet" publ-date="2008" link="http://dx.doi.org/10.1016/S0140-6736(08)61687-6"/>
+    <reference name-author-1="Edwards,B" name-author-2="Gray,M" name-author-3="Wise,S" jnl-abbrev="J Epidemiol Community Health" publ-date="2011" link="http://dx.doi.org/10.1136/jech.2010.118133"/>
+    <reference name-author-1="Murphy,E" name-author-2="Best,E" jnl-abbrev="NSW Public Health Bull" publ-date="2012" link="http://dx.doi.org/10.1071/NB11051"/>
+    <reference collaboration="Department of Community Services" source="Brighter Futures service provision guidelines May 2012" publ-location="Sydney" publ-name="Department of Community Services" publ-date="2012"/>
+    <reference collaboration="NSW Health" jnl-abbrev="NSW Aboriginal maternal and infant health strategy evaluation" publ-location="Sydney" publ-name="NSW Health" publ-date="2005"/>
+    <reference name-author-1="Hilferty,F" name-author-2="Mullan,K" name-author-3="van Gool,K" jnl-abbrev="The Evaluation of Brighter Futures, NSW Community Services&#8217; Early Intervention Program" publ-location="Sydney" publ-name="Social Policy Research Centre, University of New South Wales" publ-date="2010"/>
+    <reference collaboration="National Centre for Classification in Health" source="International Statistical Classification of Diseases and Related Health Problems, 10th Revision, Australian Modification (ICD-10-AM),&#10;                                                Australian Classification of Health Interventions (ACHI) and Australian Coding Standards (ACS)" publ-location="Sydney, Australia" publ-name="National Centre for Classification in Health" publ-date="2006"/>
+    <reference name-author-1="Kelman,CW" name-author-2="Bass,AJ" name-author-3="Holman,CD" jnl-abbrev="Aust N Z J Public Health" publ-date="2002" link="http://dx.doi.org/10.1111/j.1467-842X.2002.tb00682.x"/>
+    <reference collaboration="Centre for Health Record Linkage" source="Master linkage key quality assurance" publ-location="Sydney" publ-name="Centre for Health Record Linkage" publ-date="2011"/>
+    <reference collaboration="Australian Government National Statistical Service" source="Statistical data integration involving commonwealth data: accredited integrating authorities Australian Institute of Health&#10;                                                and Welfare application summary" publ-location="Canberra" publ-name="Australian Burea of Statistics" publ-date="2012"/>
+    <reference name-author-1="Cheng,SH" name-author-2="Chen,CC" name-author-3="Hou,YF" jnl-abbrev="Arch Intern Med" publ-date="2010"/>
+    <reference collaboration="Department of Health and Aged Care" source="Measuring remoteness: accessibility/remoteness index of Australia (ARIA)" publ-location="Canberra" publ-name="Australian Government, Department of Health and Aged Care" publ-date="2001"/>
+    <reference collaboration="Australian Bureau of Statistics" jnl-abbrev="Socio-Economic Indexes for Area (SEIFA)&#8212;technical paper 2006" publ-location="Canberra" publ-name="ABS" publ-date="2008"/>
+    <reference collaboration="NSW Health" source="NSW Population Health Survey" publ-location="Sydney" publ-name="Centre for Epidemiology and Evidence" publ-date="2013" link="http://www.health.nsw.gov.au/epidemiology/Pages/NSW-Population-Health-Survey.aspx"/>
+    <reference collaboration="Centre for Epidemiology and Research" source="Health Statistics NSW: privacy issues and the reporting of small numbers" publ-location="Sydney" publ-name="Centre for Epidemiology and Research, Population Health Indicators Branch, NSW Ministry of Health" publ-date="2011"/>
+    <reference name-author-1="Leckie,G" name-author-2="Pillinger,R" name-author-3="Jenkins,J" source="School, family, neighbourhood: which is most important to a child's education? Significance" publ-name="The Royal Statistical Society" publ-date="2010"/>
+    <reference name-author-1="Rasbah,J" name-author-2="Leckie,G" name-author-3="Pillinger,R" jnl-abbrev="J R Stat Soc" publ-date="2010" link="http://dx.doi.org/10.1111/j.1467-985X.2010.00642.x"/>
+    <reference name-author-1="Rubin,DB" jnl-abbrev="Ann Intern Med" publ-date="1997" link="http://dx.doi.org/10.7326/0003-4819-127-8_Part_2-199710151-00064"/>
+    <reference collaboration="Department of Family and Community Services" jnl-abbrev="Annual Statistical Report 2010&#8211;11" publ-location="Sydney" publ-name="Information Management Branch, Planning and Corporate Performance Directorate, Department of Family and Community Services" publ-date="2012"/>
+    <reference collaboration="Australian Government"/>
+    <reference collaboration="Australian Government" link="http://www.aedc.gov.au/resources/community-profiles"/>
+    <reference collaboration="Australian Bureau of Statistics" source="3235.0 Population by age and sex, Australia, 2007" publ-location="Canberra" publ-name="ABS" publ-date="2007" link="http://www.abs.gov.au/ausstats/abs@.nsf/Previousproducts/3235.0MainFeatures99992007?opendocument&amp;amp;tabname=Summary&amp;amp;prodno=3235.0&amp;amp;issue=2007&amp;amp;num=&amp;amp;view="/>
+    <reference collaboration="Public Health Information Development Unit" source="Aboriginal and Torres Strait Islander social health atlases" publ-location="Adelaide" publ-name="PHIDU" link="http://www.adelaide.edu.au/phidu/maps-data/data/"/>
+    <reference collaboration="Australian Institute of Health and Welfare" jnl-abbrev="Indigenous identification in hospital separations data&#8212;quality report" publ-location="Canberra" publ-name="Australian Institute of Health and Welfare" publ-date="2010"/>
+    <reference name-author-1="Bentley,JP" name-author-2="Taylor,LK" name-author-3="Brandt,PG" jnl-abbrev="NSW Public Health Bull" publ-date="2012" link="http://dx.doi.org/10.1071/NB11034"/>
+    <reference name-author-1="Neville,SE" name-author-2="Taylor,LK" name-author-3="Moore,H" jnl-abbrev="Aust N Z J Public Health" publ-date="2011" link="http://dx.doi.org/10.1111/j.1753-6405.2011.00738.x"/>
+    <reference name-author-1="Randall,DA" name-author-2="Lujic,S" name-author-3="Leyland,AH" jnl-abbrev="Aust N Z J Public Health" publ-date="2013" link="http://dx.doi.org/10.1111/1753-6405.12114"/>
+    <reference name-author-1="Taylor,LK" name-author-2="Bentley,J" name-author-3="Hunt,J" jnl-abbrev="BMC Med Res Methodol" publ-date="2012" link="http://dx.doi.org/10.1186/1471-2288-12-91"/>
+    <reference name-author-1="Lawrence,D" name-author-2="Christensen,D" name-author-3="Mitrou,F" jnl-abbrev="BMC Med Res Methodol" publ-date="2012" link="http://dx.doi.org/10.1186/1471-2288-12-90"/>
+  </references>
+</article>

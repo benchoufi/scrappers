@@ -1,0 +1,49 @@
+import urllib2
+from lxml import etree
+from bs4 import BeautifulSoup
+import re
+import namearticle, getauthors, getreference
+
+# the path where you want to store your articles
+path = "/home/youcef/Desktop/bmjopen/articles_parsed/"
+
+def get_article(url) :
+	try :
+		# charge the source code
+		htmlfile = urllib2.urlopen(url)
+		soup = BeautifulSoup(htmlfile)
+		root = etree.Element("article")
+		#myfile.write(etree.tostring(root, pretty_print=True))
+	
+		# create/open a file
+		myfile = open(path+namearticle.name_article(url)+".xml", "w+")
+		myfile.write('<?xml version="1.0"?> \n')
+
+		# get authors
+		#for author in getauthors.get_authors(soup, root) :
+			#myfile.write(author)
+		try :
+			myfile.write(etree.tostring(getauthors.get_authors(soup, root), pretty_print=True))
+		except :
+			print "error author !"
+		#for child in root[0] :
+			#print child.tag
+
+		# get paragraphs
+		#for tag in soup.findAll(['p', 'title', 'h1', 'h2', 'h3']):
+			#myfile.write(str(tag))
+
+		# get reference
+		#for ref in soup.findAll('div', attrs={"class":"cit-metadata"}) :
+			#print ref.find('span', attrs={"class":"cit-pub-date"})
+			#myfile.write(str(ref))
+		#print getreference.get_reference(soup, root)
+		root2 = etree.SubElement(root, "references")
+		myfile.write(etree.tostring(root2, pretty_print=True))
+		#myfile.write(etree.tostring(getreference.get_reference(soup, root), pretty_print=True))
+
+
+		# close the file
+		myfile.close()
+	except :
+		print "not found!"

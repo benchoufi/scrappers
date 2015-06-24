@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<article>
+  <title>Risk of bladder cancer in patients with diabetes: a retrospective cohort study </title>
+  <authors>
+    <author name="Maria E Goossens"/>
+    <author name="Maurice P Zeegers"/>
+    <author name="Marloes T Bazelier"/>
+    <author name="Marie L De Bruin"/>
+    <author name="Frank Buntinx"/>
+    <author name="Frank de Vries"/>
+  </authors>
+  <body>
+    <p>&lt;strong&gt;Objective&lt;/strong&gt; The objective of this study was to examine the association between diabetes, and both urinary bladder cancer (UBC) risk and
+                                    mortality.
+                                 </p>
+    <p>&lt;strong&gt;Methods&lt;/strong&gt; We conducted a retrospective cohort study using data from the UK Clinical Practice Research Datalink (CPRD) linked to the
+                                    Office of National Statistics (ONS). Patients diagnosed with diabetes mellitus type 1 or 2, or using antidiabetic drugs (ADDs),
+                                    were compared to matched non-diabetic controls. Cox proportional hazards models were used to estimate the risk and mortality
+                                    of UBC. We adjusted for age, sex, smoking status and body mass index.
+                                 </p>
+    <p>&lt;strong&gt;Results&lt;/strong&gt; The cohort included 329&#8197;168 patients using ADD, and 307&#8197;315 controls with 1295 and 1071 patients, respectively, diagnosed
+                                    as having UBC during follow-up. The adjusted HRs of UBC were 0.77 (95% CI 0.57 to 1.05) and 1.04 (95% CI 0.96 to 1.14) for
+                                    type 1 and 2 diabetes, respectively. These results were similar if we restricted our analysis to an inception cohort. We noticed
+                                    a small increased risk during the first year after diagnosis (HR=1.26 (95% CI 1.05 to 1.52)), which could be explained by
+                                    detection bias. There was no influence of the severity of diabetes as measured by the glycated haemoglobin. Mortality of UBC
+                                    was not increased for patients with either type 1 (HR=0.95 (95% CI 0.39 to 2.34)) or type 2 diabetes (HR=1.16 (95% CI 0.91
+                                    to 1.46)).
+                                 </p>
+    <p>&lt;strong&gt;Conclusions&lt;/strong&gt; Neither the risk of UBC nor the mortality from UBC was increased in patients with type 1 and patients with type 2 diabetes
+                                    in the CPRD data.
+                                 </p>
+    <p>The Clinical Practice Research Datalink (CPRD) is a large population-based cohort representative of the total UK population.</p>
+    <p>Detailed longitudinal information on drug prescription is available within the CPRD, and 95% and 80% of patients with type
+                                       1 and 2 diabetes, respectively, had received a formal diabetes diagnosis.
+                                    </p>
+    <p>Smoking status was available for all patients in our analysis.</p>
+    <p>Detailed information about the cause of death is available for 44% of the patients by linking the patients to the Office of
+                                       National Statistics (ONS) data.
+                                    </p>
+    <p>The effect of different antidiabetic drug medications is not considered in our analyses and this is a major limitation.</p>
+    <p>The global 2013 estimate of diabetes mellitus prevalence among adults (aged 20&#8211;79&#8197;years) was 8.3%, affecting 382 million adults
+                                 in the world and 6.6% in the UK.&lt;a class="xref-bibr" href="#ref-1" id="xref-ref-1-1"&gt;1&lt;/a&gt; Between 2010 and 2030, the number of adults with diabetes in developing countries is expected to increase by 69%, and by
+                                 20% in developed countries.&lt;a class="xref-bibr" href="#ref-2" id="xref-ref-2-1"&gt;2&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-3" id="xref-ref-3-1"&gt;3&lt;/a&gt; In 2012, more than 400&#8197;000 cases of urinary bladder cancer (UBC) occurred worldwide, making it the seventh most common type
+                                 of cancer.&lt;a class="xref-bibr" href="#ref-4" id="xref-ref-4-1"&gt;4&lt;/a&gt; It is more frequent in men than in women, and age is now widely accepted as the greatest single risk factor for developing
+                                 UBC. Cigarette smoking and specific occupational exposures, such as carcinogenic dyes for painters and some genetic polymorphisms,
+                                 are the other main known causes of UBC.&lt;a class="xref-bibr" href="#ref-5" id="xref-ref-5-1"&gt;5&lt;/a&gt; Previous meta-analyses from cohort and case&#8211;control studies have shown an increased risk of UBC associated with type 2 diabetes
+                                 with relative risks (RR) ranging from 1.11 (95% CI 1.00 to 1.23) to 1.32 (95% CI 1.18 to 1.49).&lt;a class="xref-bibr" href="#ref-6" id="xref-ref-6-1"&gt;6&#8211;9&lt;/a&gt; There is also evidence for a positive association between type 2 diabetes and mortality from UBC (RR=1.33 (95% CI 1.14 to
+                                 1.55).&lt;a class="xref-bibr" href="#ref-7" id="xref-ref-7-1"&gt;7&lt;/a&gt; However, misclassification of type 1 and 2 diabetes was not excluded in these studies, because diagnostic codes were lacking
+                                 and details about the diabetic history (duration, metabolic control) were not considered.
+                              </p>
+    <p>Two studies on type 1 diabetes reported an increased overall cancer incidence by 20%, while the mechanisms remain unclear.&lt;a class="xref-bibr" href="#ref-10" id="xref-ref-10-1"&gt;10&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-11" id="xref-ref-11-1"&gt;11&lt;/a&gt; The observed number of bladder cancer cases in these studies is very small, ranging from 4 to 27 cases.&lt;a class="xref-bibr" href="#ref-10" id="xref-ref-10-2"&gt;10&#8211;12&lt;/a&gt; The objective of this study was to examine the association between diabetes mellitus, and both UBC risk and mortality, taking
+                                 into account diabetes duration, metabolic control as expressed by glycated haemoglobin (HbA1c) and type of diabetes.
+                              </p>
+    <p>We conducted a retrospective cohort study using data from the UK Clinical Practice Research Datalink (CPRD) (January 1987&#8211;October
+                                    2013) linked to the Office of National Statistics (ONS) (January 1998&#8211;January 2012). The CPRD comprises prospectively collected
+                                    computerised medical records of over 10 million patients under the care of more than 600 general practitioners (GPs) in the
+                                    UK. The Read classification is used to enter medical diagnoses and procedures, and prescriptions are recorded based on the
+                                    UK &lt;em&gt;Prescription Pricing Authority Dictionary&lt;/em&gt;.
+                                 </p>
+    <p>The recorded information on diagnoses and drug use was validated, and proved to be of high quality.&lt;a class="xref-bibr" href="#ref-13" id="xref-ref-13-1"&gt;13&lt;/a&gt; The ONS provided data for the cause(s) of death and the exact date of death as recorded on death certificates by a registered
+                                    medical practitioner attending to the patient during their last period.
+                                 </p>
+    <p>All patients with at least one prescription of antidiabetic drugs (ADDs) (oral antidiabetic drugs (NIADs) and/or insulin)
+                                    and aged above 18&#8197;years during the period of valid CPRD data collection were included. Each ADD user was matched to one control
+                                    patient by year of birth, sex and practice. Controls could have any disease as long as they were non-diabetic patients at
+                                    baseline and during follow-up. The date of the first ADD prescription defined the index date and controls were assigned the
+                                    same index date as their matched ADD user. All participants with missing data for smoking status, a history of any cancer
+                                    prior to the index date, except non-melanoma skin cancer, or a diagnosis of gestational diabetes or secondary diabetes ever
+                                    during follow-up were excluded. All control patients who used diabetes treatment or had ever been diagnosed with type 1 or
+                                    2 diabetes ever during follow-up were excluded. All ADD users with diagnoses of type 1 and 2 diabetes were excluded as well,
+                                    as were patients aged 30&#8197;years and older without a diagnosis of diabetes, who used insulin only at baseline. All study participants
+                                    were followed up from the index date to either the end of data collection, the date of transfer of the patient out of the
+                                    practice area, or the patient&#8217;s death.
+                                 </p>
+    <p>Patients with type 1 diabetes were defined as those patients with a formal diagnosis of type 1 diabetes (as recorded in CPRD)
+                                    or younger than 30&#8197;years and using insulin only at index date. Patients with type 2 diabetes were all patients with a formal
+                                    diagnosis of type 2 diabetes (as recorded in CPRD) or using an oral ADD at index date. The total period of follow-up for each
+                                    patient (patients with diabetes and unexposed controls) was divided into fixed time periods of 90&#8197;days. Age was determined
+                                    at the start of each interval. The classification of type 1 and 2 diabetes, as well as sex, smoking status and body mass index
+                                    (BMI), was determined at baseline. Diabetes duration was assessed in a time-dependent manner by estimating the time since
+                                    the date of the first ADD prescription (the index date). Diabetes control was assessed in a time-dependent manner using the
+                                    most recent HbA1c record before the start of each time interval and within the previous year.
+                                 </p>
+    <p>The primary outcome was UBC, as defined by Read codes, and was assessed in the complete CPRD study population (January 1987&#8211;October
+                                    2013). The secondary outcome was bladder cancer-related mortality as recorded on death certificates (International Classification
+                                    of Diseases (ICD-10) categories C65, C67) and was assessed in the population eligible for linkage between CPRD and ONS data
+                                    (44% of the participants). The period of follow-up was restricted to the time that ONS data were available (January 1998&#8211;January
+                                    2012).
+                                 </p>
+    <p>The major covariates of interest included age, sex, smoking status and BMI. Smoking status was characterised at baseline as
+                                    current, former or lifelong non-smoker.
+                                 </p>
+    <p>Analyses were conducted using Cox proportional hazards models with various subanalyses. As time scale we used time since first
+                                    ADD use. We tested the proportional hazard assumption by comparing patients with diabetes to non-diabetes controls. The assumption
+                                    was not violated. The first analysis compared the risk of UBC in ADD users with that in control patients to yield an estimate
+                                    of the RR (as a HR) of UBC associated with ADD use. The calculations were adjusted for age, sex, smoking status and BMI. Results
+                                    were stratified to type 1 and type 2 diabetes. A sensitivity analysis was performed excluding women with polycystic ovarian
+                                    syndrome (PCOS). In a secondary analysis, risks were estimated for an inception cohort of ADD users using a 1-year lead-in
+                                    time. The risk of UBC for patients with incident type 2 diabetic was further stratified by disease duration, sex and HbA1c.
+                                    The risk of UBC mortality in ADD users compared with that of controls was assessed by Cox models as well and results were
+                                    stratified by type of diabetes. All data management and statistical analyses were conducted using SAS V.9.1/9.2 software.
+                                 </p>
+    <p>This study was approved by the Medicines and Healthcare products Authorities&#8217; Independent Scientific Advisory Committee, protocol
+                                    number 13_050R.
+                                 </p>
+    <p>After exclusion of all patients with a diagnosis of gestational diabetes (1983 and 154 for ADD users and controls, respectively),
+                                 or secondary diabetes (485 and 70 for ADD users and controls, respectively), or cancer prior to index date (34&#8197;955 and 34&#8197;384
+                                 for ADD users and controls, respectively) or missing data for smoking status during follow-up (13&#8197;416 and 27&#8197;558 for ADD users
+                                 and controls, respectively), the study population consisted of 329&#8197;168 patients with diabetes of whom 30&#8197;823 (9.4%) and 298&#8197;345
+                                 (90.6%) had type 1 and 2 diabetes, respectively, and 307&#8197;315 controls. Patients diagnosed with type 1 and 2 diabetes at baseline
+                                 (7614) and patients without diagnosis, using insulin only at baseline and 30&#8197;years or older (10&#8197;178), were not included in
+                                 our analysis.
+                              </p>
+    <p>&lt;a class="xref-table" href="#T1" id="xref-table-wrap-1-1"&gt;Table&#160;1&lt;/a&gt; shows baseline characteristics. The mean age at index date was 58&#8197;years. Forty-six per cent of the patients with diabetes
+                                 had a BMI of 30 or above in contrast with 30% of the control participants.
+                              </p>
+    <p>Baseline characteristics of antidiabetic drug (ADD) users and non-diabetic controls</p>
+    <p>During nearly 6&#8197;years of follow-up, 1071 patients of the control group and 1295 of the ADD users were diagnosed with bladder
+                                 cancer. Patients with type 1 diabetes had no significantly lower risk of UBC (HR=0.77 (95% CI 0.57 to 1.05)) than patients
+                                 with type 2 diabetes (HR=1.04 (95% CI 0.96 to 1.14)) based on a Wald test (p=0.054). The results for incident ADD users were
+                                 similar (&lt;a class="xref-table" href="#T2" id="xref-table-wrap-2-1"&gt;table 2&lt;/a&gt;).
+                              </p>
+    <p>Risk of bladder cancer in antidiabetic drug (ADD) users compared with controls, by type of diabetes and in incident ADD users</p>
+    <p>For patients with incident type 2 diabetes, we noticed an increased risk of UBC (HR=1.26 (95% CI 1.05 to 1.52)) during the
+                                 first year after the first ADD prescription, compared to controls, which disappeared in subsequent years (&lt;a class="xref-table" href="#T3" id="xref-table-wrap-3-1"&gt;table 3&lt;/a&gt;). Sixty per cent of the bladder cancers developed during the first 5&#8197;years after diabetes onset. There was no difference
+                                 in UBC risk between male and female patients with type 2 diabetes (HR=1.11 (95% CI 0.98 to 1.25) and 1.01 (95% CI 0.79 to
+                                 1.29), respectively). In patients with type 2 diabetes, there was no influence of HbA1c as an indicator of diabetes severity
+                                 on UBC risk (&lt;a class="xref-table" href="#T4" id="xref-table-wrap-4-1"&gt;table 4&lt;/a&gt;). UBC-related mortality was neither increased in patients with type 1 diabetes (HR=0.79 (95% CI 0.32 to 1.94)) nor in patients
+                                 with type 2 diabetes, compared to controls (HR=1.05 (95% CI 0.83 to 1.33)) (&lt;a class="xref-table" href="#T5" id="xref-table-wrap-5-1"&gt;table 5&lt;/a&gt;).
+                              </p>
+    <p>Risk of bladder cancer in incident patients with type 2 diabetes mellitus compared with controls, by duration of disease and
+                                       sex
+                                    </p>
+    <p>Risk of urinary bladder cancer in patients with type 2 diabetes mellitus by HbA1c level at most recent measurement</p>
+    <p>Risk of urinary bladder cancer (UBC) mortality in antidiabetic drug (ADD) users compared with controls, by type of diabetes
+                                       mellitus
+                                    </p>
+    <p>We could not detect a significantly increased risk of UBC nor of increased mortality due to UBC in patients with type 1 and
+                                 2 diabetes compared to controls even if we reduced our cohort to incident ADD users. However, we noticed an increased risk
+                                 of UBC in patients with type 2 diabetes during the first year after diagnosis. Diabetes control, as expressed by HbA1c, had
+                                 no influence on the UBC risk in patients with type 2 diabetes.
+                              </p>
+    <p>Previous meta-analyses reported an increased risk.&lt;a class="xref-bibr" href="#ref-6" id="xref-ref-6-2"&gt;6&#8211;9&lt;/a&gt; Even when these meta-analyses&lt;a class="xref-bibr" href="#ref-6" id="xref-ref-6-3"&gt;6&#8211;8&lt;/a&gt; were restricted to studies that adjusted for smoking, there was still an increased RR ranging from 1.32 (95% CI 1.18 to 1.49)
+                                 to 1.48 (95% CI 1.25 to 1.77), comparable to our RR for type 2 diabetes. On the other hand, in several studies, diabetes ascertainment
+                                 was based on self-reporting.&lt;a class="xref-bibr" href="#ref-8" id="xref-ref-8-1"&gt;8&lt;/a&gt; Those studies had an RR of 1.34 (95% CI 1.11 to 1.62). The increased risk of UBC in patients with diabetes decreased and
+                                 significance disappeared when diabetes was asserted by other methods (RR=1.11 (95% CI 0.95 to 1.31)). Furthermore, not all
+                                 studies distinguished between diabetes type 1 and 2. Most of the studies excluded type 1 diabetes as a diagnosis of diabetes
+                                 before 30&#8197;years of age.&lt;a class="xref-bibr" href="#ref-7" id="xref-ref-7-2"&gt;7&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-8" id="xref-ref-8-2"&gt;8&lt;/a&gt; Subgroup analysis of studies restricted to Europe did not show an increased risk of UBC in patients with type 2 diabetes.&lt;a class="xref-bibr" href="#ref-6" id="xref-ref-6-4"&gt;6&#8211;8&lt;/a&gt; Hence, our results are in line with those of European studies.&lt;a class="xref-bibr" href="#ref-12" id="xref-ref-12-1"&gt;12&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-14" id="xref-ref-14-1"&gt;14&#8211;21&lt;/a&gt; It is not clear why there is a difference between European studies and those of other regions.
+                              </p>
+    <p>We did not find an increased risk of bladder cancer in diabetes type 1, which is in line with the results found in Sweden&lt;a class="xref-bibr" href="#ref-10" id="xref-ref-10-3"&gt;10&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-11" id="xref-ref-11-2"&gt;11&lt;/a&gt; and in the UK.&lt;a class="xref-bibr" href="#ref-12" id="xref-ref-12-2"&gt;12&lt;/a&gt;</p>
+    <p>An increased risk of UBC during the first year after diabetes diagnosis was found in several other studies.&lt;a class="xref-bibr" href="#ref-20" id="xref-ref-20-1"&gt;20&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-22" id="xref-ref-22-1"&gt;22&#8211;24&lt;/a&gt; Likewise, for colorectal, lung, breast, liver, cervical, endometrial, ovarian, pancreatic and prostate cancers, a significantly
+                                 increased risk was found within the months following diabetes onset.&lt;a class="xref-bibr" href="#ref-10" id="xref-ref-10-4"&gt;10&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-25" id="xref-ref-25-1"&gt;25&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-26" id="xref-ref-26-1"&gt;26&lt;/a&gt; This most likely indicates the presence of a detection bias, in the sense that the diagnosis of diabetes leads to increased
+                                 medical attention, and thus to earlier detection of any present but undiagnosed cancer. This phenomenon has also been observed
+                                 immediately after the diagnosis of prostate cancer. The incidence of UBC was 18 times higher in patients with prostate cancer
+                                 due to diagnostic bias.&lt;a class="xref-bibr" href="#ref-27" id="xref-ref-27-1"&gt;27&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-28" id="xref-ref-28-1"&gt;28&lt;/a&gt; On the other hand, in contrast with some other studies, we could not confirm the hypothesis that fewer physician visits in
+                                 the year before diabetes diagnosis increases the risk of bladder cancer diagnosis in contrast with some other studies.&lt;a class="xref-bibr" href="#ref-24" id="xref-ref-24-1"&gt;24&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-26" id="xref-ref-26-2"&gt;26&lt;/a&gt; Apart from the increased risk of UBC during the first year of diabetes diagnosis, possibly due to detection bias, we did
+                                 not find an association between diabetes duration and developing bladder cancer. Seeing that nearly 50% of the patients had
+                                 a follow-up of more than 5&#8197;years and only 40% of the bladder cancers were diagnosed after these 5&#8197;years, while only 10% was
+                                 diagnosed after 10&#8197;years, we can conclude that having diabetes for more than 5&#8197;years did not alter the risk of UBC.
+                              </p>
+    <p>Our finding of no association between HbA1c and cancer risk is consistent with the results of a recent meta-analysis of major
+                                 randomised controlled trials.&lt;a class="xref-bibr" href="#ref-29" id="xref-ref-29-1"&gt;29&lt;/a&gt;</p>
+    <p>The strength of this study was that the CPRD is a large population-based cohort, representative of the total UK population.
+                                 Type 2 diabetes accounts for 85% to 95% of all diabetes in high-income countries.&lt;a class="xref-bibr" href="#ref-1" id="xref-ref-1-2"&gt;1&lt;/a&gt; In the UK, 10% of the people with diabetes have type 1,&lt;a class="xref-bibr" href="#ref-30" id="xref-ref-30-1"&gt;30&lt;/a&gt; which was confirmed in our analysis (9.4%). We had detailed longitudinal information on drug prescription, and 95% and 80%
+                                 of the patients with type 1 and 2 diabetes, respectively, had received a formal diabetes diagnosis. Patients with type 1 and
+                                 2 diabetes at baseline, and patients without diagnosis, using insulin only at baseline and 30&#8197;years or older, were excluded
+                                 from our analysis. Consulting rates for diabetes in the CPRD have been compared with equivalent data from the fourth National
+                                 Morbidity Survey in General Practice, confirming the validity of the morbidity data in the CPRD.&lt;a class="xref-bibr" href="#ref-31" id="xref-ref-31-1"&gt;31&lt;/a&gt; Furthermore, since 2004, GPs have been stimulated to provide &#8216;quality care&#8217; by the Quality and Outcomes Framework (QOF).
+                                 The UK has a National Service Framework for Diabetes (NSF).&lt;a class="xref-bibr" href="#ref-32" id="xref-ref-32-1"&gt;32&lt;/a&gt; Guidelines to be followed by the GPs are outlined in the guideline for type 1&lt;a class="xref-bibr" href="#ref-33" id="xref-ref-33-1"&gt;33&lt;/a&gt; and 2 diabetes&lt;a class="xref-bibr" href="#ref-34" id="xref-ref-34-1"&gt;34&lt;/a&gt; of the National Institute of Health and Care Excellence (NICE). For diagnosis, the NICE guideline refers to the International
+                                 Diabetes Federation (IDF) Diabetes Atlas.&lt;a class="xref-bibr" href="#ref-1" id="xref-ref-1-3"&gt;1&lt;/a&gt; Diagnosis of diabetes is directly linked with prescription of ADD whereas Impaired Glucose Tolerance (IGT) is referred to
+                                 as people whose blood glucose levels are high but not as high as those in people with diabetes. Our cohort was restricted
+                                 to those patients receiving ADD. Furthermore, we had HbA1c values for 1251 of the 1295 patients with bladder cancer. So, 96%
+                                 of the patients have additional proof of being diabetic.
+                              </p>
+    <p>Metformin can also be used to treat obesity or PCOS. We have no means to test the possible effect of metformin prescribed
+                                 for obesity, although the clinical impression exists that such treatments tend to be relatively short. In our cohort, 12&#8197;841
+                                 women were diagnosed with PCOS. None of them developed UBC. A sensitivity analysis, excluding those PCOS women, showed exactly
+                                 the same HRs. Additionally, we have information on the smoking status of all patients who were included in our analysis, which
+                                 is essential given that smoking is one of the major risk factors for bladder cancer.&lt;a class="xref-bibr" href="#ref-5" id="xref-ref-5-2"&gt;5&lt;/a&gt; The link with the ONS data allowed us to have detailed information about the cause of death for 44% of patients.
+                              </p>
+    <p>The fact that the effect of different antidiabetic drug medications was not considered in our analyses is a major limitation.
+                                 We are aware of the fact that metformin can have a protective effect on cancer&lt;a class="xref-bibr" href="#ref-3" id="xref-ref-3-2"&gt;3&lt;/a&gt; &lt;span class="xref-sep"&gt;,&lt;/span&gt;&lt;a class="xref-bibr" href="#ref-35" id="xref-ref-35-1"&gt;35&lt;/a&gt; and that pioglitazone could be associated with an increased risk of bladder cancer.&lt;a class="xref-bibr" href="#ref-36" id="xref-ref-36-1"&gt;36&#8211;40&lt;/a&gt; This was, however, beyond the scope of this study.
+                              </p>
+    <p>With this study, and against the background of all previous research, the likelihood of a clinically relevant association
+                                 between diabetes and UBC risk has become very limited. The influence of antidiabetic treatment on bladder cancer risk, however,
+                                 is still contradictable and requires further study in the future.
+                              </p>
+    <p>Neither the risk of UBC nor the mortality from UBC was observed to be increased in patients with type 1 or type 2 diabetes
+                                 in the CPRD data. Our results are in line with those of previous European studies.
+                              </p>
+    <p>&lt;span class="fn-label"&gt;Contributors&lt;/span&gt; MEG wrote the manuscript and researched data. MTB performed the statistical analysis and reviewed the manuscript. FB and
+                                       MPZ reviewed/edited the manuscript. FdV and MLDB provided the data and reviewed/edited the manuscript.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Funding&lt;/span&gt; The research leading to the results of this study received funding from the European Community's Seventh Framework Programme
+                                       (FP-7) under grant agreement number 282526, the CARING project. The funding source had no role in study design, data collection,
+                                       data analysis, data interpretation or writing of the report.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Competing interests&lt;/span&gt; The Department of Pharmacoepidemiology and Clinical Pharmacology employing authors MTB and FdV received unrestricted funding
+                                       for pharmacoepidemiological research from GlaxoSmithKline, Novo Nordisk, the private&#8211;public-funded Top Institute Pharma (&lt;a href="http://www.tipharma.nl"&gt;http://www.tipharma.nl&lt;/a&gt;; includes co-funding from universities, government and industry), the Dutch Medicines Evaluation Board and the Dutch Ministry
+                                       of Health. The GPRD is owned by the UK Department of Health and operates within the Medicines and Healthcare Products Regulatory
+                                       Agency (MHRA). GPRD is funded by the MHRA, Medical Research Council, various universities, contract research organisations
+                                       and pharmaceutical companies. MLDB is employed by Utrecht University as a senior researcher conducting research in collaboration
+                                       with the WHO Collaborating Centre for pharmaceutical policy and regulation. This Centre receives no direct funding or donations
+                                       from private parties, including the pharma industry. Research funding from public-private partnerships, for example, IMI and
+                                       TI Pharma (&lt;a href="http://www.tipharma.nl"&gt;http://www.tipharma.nl&lt;/a&gt;), is accepted under the condition that no company-specific product or company related study is conducted. The Centre has
+                                       received unrestricted research funding from public sources, for example, Netherlands Organization for Health Research and
+                                       Development (ZonMW), the Dutch Health Care Insurance Board (CVZ), EU 7th Framework Program (FP7), Dutch Medicines Evaluation
+                                       Board (MEB) and Dutch Ministry of Health.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Ethics approval&lt;/span&gt; Medicines and Healthcare products Authorities&#8217; Independent Scientific Advisory Committee.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Provenance and peer review&lt;/span&gt; Not commissioned; externally peer reviewed.
+                                    </p>
+    <p>&lt;span class="fn-label"&gt;Data sharing statement&lt;/span&gt; CPRD data are available under license with the Medicines and Healthcare products Regulatory Agency (MHRA) in London, UK.
+                                       The datasets that have been used for this project have been licensed by the MHRA. Access to datasets that have been used for
+                                       this study are available for audit purposes only, conditional on permission by the MHRA.
+                                    </p>
+    <p>This is an Open Access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0)
+                                 license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative
+                                 works on different terms, provided the original work is properly cited and the use is non-commercial. See: &lt;a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"&gt;http://creativecommons.org/licenses/by-nc/4.0/&lt;/a&gt;</p>
+  </body>
+  <references>
+    <reference collaboration="International Diabetes Federation" source="IDF diabetes atlas" edition="6th edn" publ-location="Brussels, Belgium" publ-name="International Diabetes Federation" publ-date="2013" link="http://www.idf.org/diabetesatlas"/>
+    <reference name-author-1="Shaw,JE" name-author-2="Sicree,RA" name-author-3="Zimmet,PZ" jnl-abbrev="Diabetes Res Clin Pract" publ-date="2010" link="http://dx.doi.org/10.1016/j.diabres.2009.10.007"/>
+    <reference name-author-1="Ngwana,G" name-author-2="Aerts,M" name-author-3="Truyers,C" jnl-abbrev="Diabetes Res Clin Pract" publ-date="2012" link="http://dx.doi.org/10.1016/j.diabres.2012.02.002"/>
+    <reference name-author-1="Ferlay,J" name-author-2="Soerjomataram,I" name-author-3="Ervik,M" link="http://globocan.iarc.fr"/>
+    <reference name-author-1="Goossens,ME" name-author-2="Buntinx,F" name-author-3="Zeegers,MP" source="The Oxford textbook of surgery" publ-name="Oxford University Press (OUP)" publ-date="2015"/>
+    <reference name-author-1="Larsson,SC" name-author-2="Orsini,N" name-author-3="Brismar,K" jnl-abbrev="Diabetologia" publ-date="2006" link="http://dx.doi.org/10.1007/s00125-006-0468-0"/>
+    <reference name-author-1="Zhu,Z" name-author-2="Zhang,X" name-author-3="Shen,Z" jnl-abbrev="PLoS ONE" publ-date="2013" link="http://dx.doi.org/10.1371/journal.pone.0056662"/>
+    <reference name-author-1="Xu,X" name-author-2="Wu,J" name-author-3="Mao,Y" jnl-abbrev="PLoS ONE" publ-date="2013" link="http://dx.doi.org/10.1371/journal.pone.0058079"/>
+    <reference name-author-1="Starup-Linde,J" name-author-2="Karlstad,O" name-author-3="Eriksen,SA" jnl-abbrev="Curr Drug Saf" publ-date="2013" link="http://dx.doi.org/10.2174/15748863113086660071"/>
+    <reference name-author-1="Shu,X" name-author-2="Ji,J" name-author-3="Li,X" jnl-abbrev="Diabet Med" publ-date="2010" link="http://dx.doi.org/10.1111/j.1464-5491.2010.03011.x"/>
+    <reference name-author-1="Zendehdel,K" name-author-2="Nyren,O" name-author-3="Ostenson,CG" jnl-abbrev="J Natl Cancer Inst" publ-date="2003" link="http://dx.doi.org/10.1093/jnci/djg105"/>
+    <reference name-author-1="Swerdlow,AJ" name-author-2="Laing,SP" name-author-3="Qiao,Z" jnl-abbrev="Br J Cancer" publ-date="2005" link="http://dx.doi.org/10.1038/sj.bjc.6602611"/>
+    <reference name-author-1="Herrett,E" name-author-2="Thomas,SL" name-author-3="Schoonen,WM" jnl-abbrev="Br J Clin Pharmacol" publ-date="2010" link="http://dx.doi.org/10.1111/j.1365-2125.2009.03537.x"/>
+    <reference name-author-1="Adami,HO" name-author-2="McLaughlin,J" name-author-3="Ekbom,A" jnl-abbrev="Cancer Causes Control" publ-date="1991" link="http://dx.doi.org/10.1007/BF00051670"/>
+    <reference name-author-1="La Vecchia,C" name-author-2="Negri,E" name-author-3="Franceschi,S" jnl-abbrev="Br J Cancer" publ-date="1994" link="http://dx.doi.org/10.1038/bjc.1994.427"/>
+    <reference name-author-1="Wideroff,L" name-author-2="Gridley,G" name-author-3="Mellemkjaer,L" jnl-abbrev="J Natl Cancer Inst" publ-date="1997" link="http://dx.doi.org/10.1093/jnci/89.18.1360"/>
+    <reference name-author-1="Ng,Y" name-author-2="Husain,I" name-author-3="Waterfall,N" jnl-abbrev="Pathol Oncol Res" publ-date="2003" link="http://dx.doi.org/10.1007/BF03033711"/>
+    <reference name-author-1="Verlato,G" name-author-2="Drane,JW" name-author-3="Aldrich,TE" jnl-abbrev="Diabetes Nutr Metab" publ-date="2003"/>
+    <reference name-author-1="Larsson,SC" name-author-2="Andersson,SO" name-author-3="Johansson,JE" jnl-abbrev="Eur J Cancer" publ-date="2008" link="http://dx.doi.org/10.1016/j.ejca.2008.07.012"/>
+    <reference name-author-1="Ogunleye,AA" name-author-2="Ogston,SA" name-author-3="Morris,AD" jnl-abbrev="Br J Cancer" publ-date="2009" link="http://dx.doi.org/10.1038/sj.bjc.6605240"/>
+    <reference name-author-1="Attner,B" name-author-2="Landin-Olsson,M" name-author-3="Lithman,T" jnl-abbrev="Cancer Causes Control" publ-date="2012" link="http://dx.doi.org/10.1007/s10552-012-9946-5"/>
+    <reference name-author-1="Hemminki,K" name-author-2="Li,X" name-author-3="Sundquist,J" jnl-abbrev="Oncologist" publ-date="2010" link="http://dx.doi.org/10.1634/theoncologist.2009-0300"/>
+    <reference name-author-1="Atchison,EA" name-author-2="Gridley,G" name-author-3="Carreon,JD" jnl-abbrev="Int J Cancer" publ-date="2011" link="http://dx.doi.org/10.1002/ijc.25362"/>
+    <reference name-author-1="Colmers,IN" name-author-2="Majumdar,SR" name-author-3="Yasui,Y" jnl-abbrev="Diabetes Care" publ-date="2013" link="http://dx.doi.org/10.2337/dc13-0045"/>
+    <reference name-author-1="Carstensen,B" name-author-2="Witte,DR" name-author-3="Friis,S" jnl-abbrev="Diabetologia" publ-date="2012" link="http://dx.doi.org/10.1007/s00125-011-2381-4"/>
+    <reference name-author-1="Johnson,JA" name-author-2="Bowker,SL" name-author-3="Richardson,K" jnl-abbrev="Diabetologia" publ-date="2011" link="http://dx.doi.org/10.1007/s00125-011-2242-1"/>
+    <reference name-author-1="Kellen,E" name-author-2="Zeegers,MP" name-author-3="Dirx,M" jnl-abbrev="Eur J Cancer" publ-date="2007" link="http://dx.doi.org/10.1016/j.ejca.2007.04.011"/>
+    <reference name-author-1="Kellen,E" name-author-2="Zeegers,MP" name-author-3="Joniau,S" jnl-abbrev="Future Oncol" publ-date="2007" link="http://dx.doi.org/10.2217/14796694.3.5.515"/>
+    <reference name-author-1="Johnson,JA" name-author-2="Bowker,SL" jnl-abbrev="Diabetologia" publ-date="2011" link="http://dx.doi.org/10.1007/s00125-010-1933-3"/>
+    <reference publ-date="2012"/>
+    <reference name-author-1="Hollowell,J" jnl-abbrev="Popul Trends" publ-date="1997"/>
+    <reference publ-date="2001"/>
+    <reference collaboration="Type 1 diabetes|Guidance and guidelines|NICE" publ-date="2004" link="http://wwwniceorguk/guidance/cg15"/>
+    <reference collaboration="Type 2 diabetes|Guidance and guidelines|NICE" publ-date="2009" link="http://wwwniceorguk/guidance/cg87"/>
+    <reference name-author-1="Peeters,PJ" name-author-2="Bazelier,MT" name-author-3="Vestergaard,P" jnl-abbrev="Curr Drug Saf" publ-date="2013" link="http://dx.doi.org/10.2174/15680266113136660069"/>
+    <reference name-author-1="Colmers,IN" name-author-2="Bowker,SL" name-author-3="Majumdar,SR" jnl-abbrev="CMAJ" publ-date="2012" link="http://dx.doi.org/10.1503/cmaj.112102"/>
+    <reference name-author-1="Ferwana,M" name-author-2="Firwana,B" name-author-3="Hasan,R" jnl-abbrev="Diabet Med" publ-date="2013" link="http://dx.doi.org/10.1111/dme.12144"/>
+    <reference name-author-1="de Vries,F" name-author-2="Zeegers,MP" name-author-3="Knapen,LM" jnl-abbrev="Oncologist" publ-date="2013" link="http://dx.doi.org/10.1634/theoncologist.2013-0087"/>
+    <reference name-author-1="de Vries,F" name-author-2="Goossens,ME" name-author-3="Zeegers,MP" jnl-abbrev="Br J Clin Pharmacol" publ-date="2013" link="http://dx.doi.org/10.1111/bcp.12145"/>
+    <reference name-author-1="Bazelier,MT" name-author-2="de Vries,F" name-author-3="Vestergaard,P" jnl-abbrev="Curr Drug Saf" publ-date="2013" link="http://dx.doi.org/10.2174/15748863113086660069"/>
+  </references>
+</article>
