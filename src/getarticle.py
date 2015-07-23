@@ -6,7 +6,7 @@ import namearticle, getauthors, getreference, getbody, gettitle, getgfx
 import traceback
 
 # the path where you want to store your articles
-path = "/home/youcef/Desktop/bmjopen/articles_parsed/"
+path = ""
 
 def get_article(url) :
 	try :
