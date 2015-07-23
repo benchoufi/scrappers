@@ -15,7 +15,7 @@ def get_article(url) :
 		soup = BeautifulSoup(htmlfile)
 		root = etree.Element("article")
 		name = namearticle.name_article(url)
-        # create/open a file
+        	# create/open a file
 		myfile = open(path+name+".xml", "w+")
 		myfile.write('<?xml version="1.0" encoding="UTF-8"?> \n')
 
