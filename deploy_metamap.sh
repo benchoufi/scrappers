@@ -9,37 +9,48 @@ if [ "$NUMBER_OF_ARGS" -lt 2 ] ; then
 	error_exit "Incorrect number of parameters"
 fi
 
-# ARGS=`getopt hoy:d $*`
-#
-#
-# set -- "$ARGS"
-#
-# while true; do
-#   case "$1" in
-#     -h|--help)
-#       shift;
-#       if [ -n "$1" ]; then
-#         echo "Help us and contribute on our GitHub account";
-#         shift;
-#       fi
-#       ;;
-#     -o|--os)
-# 	  shift;
-#       if [ -n "$1" ]; then
-#         echo "OS version : $1";
-#         shift;
-#       fi
-#       ;;
-#     -y|--year)
-#       shift;
-#       echo "Year released : $1s";
-#       ;;
-#     --)
-#       shift;
-#       break;
-#       ;;
-#   esac
-# done
+ARGS=`getopt h:o:y:d: $*`
+
+
+eval set -- "$ARGS"
+
+tmp=0
+
+while true; do
+  case "$1" in
+    -h|--help)
+      shift;
+      if [ -n "$1" ]; then
+        echo "Help us and contribute on our GitHub account";
+        shift;
+      fi
+      ;;
+    -o|--os)
+	  shift;
+      if [ -n "$1" ]; then
+		tmp=$((tmp+1))
+        echo "OS version : $1";
+        shift;
+      fi
+      ;;
+    -y|--year)
+      shift;
+      if [ -n "$1" ]; then
+		tmp=$((tmp+1))
+        echo "Year released : $1s";
+        shift;
+      fi
+      ;;
+    --)
+      shift;
+      break;
+      ;;
+  esac
+done
+
+if [ "$tmp" -ne 2 ] ; then
+	error_exit "Incorrect flags" 
+fi
 
 OS=$0
 YEAR=$1
@@ -52,7 +63,7 @@ FILE_NAME="$BASE_NAME"_$1_main_$2"$EXTENSION_ZIP_FILE"
 URL=$BASE_URL$FILE_NAME
 PID=$$
 
-function mk_dir
+mk_dir()
 {
 	if mkdir $1 ; then
 		echo "directory successfully created"
@@ -61,7 +72,7 @@ function mk_dir
 	fi
 }
 
-function mv_file
+mv_file()
 {
 	if mv "$1" "$2" ; then
 		echo "succcessfully moved file inside its directory"
@@ -70,7 +81,7 @@ function mv_file
 	fi
 }
 
-function change_dir
+change_dir()
 {
 	if cd "$1" ; then
 		echo "$1"
@@ -81,7 +92,7 @@ function change_dir
 	fi
 }
 
-function download_metamap
+download_metamap()
 {
 	curl -O "$URL"
 	lsof -o0 -o -p $PID |
@@ -97,17 +108,17 @@ function download_metamap
 	    '
 }
 
-function unzip_file
+unzip_file()
 {
 	`bunzip2 -c "$FILE_NAME" | tar xvf - `
 }
 
-function export_path
+export_path()
 {
 	export PATH=~/"$BASE_NAME"/bin:$PATH
 }
 
-function run_install
+run_install()
 {	
 	if echo $1 | ./bin/install.sh ; then
 		echo "Installation processing"
@@ -116,39 +127,20 @@ function run_install
 	fi
 }
 
-function start_medpost_server
-{
-	if ./bin/skrmedpostctl start; then
-		echo "Starting MEDPOST server"
-	else
-		error_exit "Failed starting MEDPOST server"
-	fi 
-}
 
-function start_wsd_server
+run()
 {
-	if ./bin/wsdserverctl start; then
-		echo "Starting WSD server"
-	else
-		error_exit "Failed starting WSD server"
-	fi
-}
-
-function run 
-{
-	#mk_dir $METAMAP_DIR
-	#change_dir $METAMAP_DIR
+	mk_dir $METAMAP_DIR
+	change_dir $METAMAP_DIR
 	download_metamap 
-	#unzip_file
-	#change_dir $BASE_NAME
-	#export_path
-	#run_install `pwd`
-	#start_medpost_server
-	#start_wsd_server
+	unzip_file
+	change_dir $BASE_NAME
+	export_path
+	run_install `pwd`
 	exit 0
 }
 
-function error_exit
+error_exit()
 {
 	echo "$1" 1>&2
 	exit 1
