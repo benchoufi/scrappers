@@ -6,7 +6,8 @@ import namearticle, getauthors, getreference, getbody, gettitle, getgfx
 import traceback
 
 # the path where you want to store your articles
-path = "/home/youcef/Desktop/bmjopen/articles_parsed/"
+# you need to set the path
+path = ""
 
 def get_article(url) :
 	try :
@@ -15,7 +16,7 @@ def get_article(url) :
 		soup = BeautifulSoup(htmlfile)
 		root = etree.Element("article")
 		name = namearticle.name_article(url)
-        # create/open a file
+        	# create/open a file
 		myfile = open(path+name+".xml", "w+")
 		myfile.write('<?xml version="1.0" encoding="UTF-8"?> \n')
 
