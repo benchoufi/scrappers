@@ -19,7 +19,6 @@ Following scripts are used to deploy METAMAP on clusters
   - [x] @benchoufi, **Windows** is not supported the same process needs to be done for **win32**
 
   after ensuring you have correctly installed the `bdutil` tool porvided by [Google Cloud](https://github.com/GoogleCloudPlatform/bdutil), you can run this 
-
  
  `./bdutil -P metamap -b metamap_hd -u deploy_metamap.sh run_command --\
   ./deploy_metamap.sh -o $OS -y $year`
@@ -30,6 +29,7 @@ Following scripts are used to deploy METAMAP on clusters
 2. running `deploy_metamap_api.sh`
   you'll have to set the same flags are those of `deploy_metamap.sh`, so running 
   then you'll have to run 
+
  `./deploy_metamap_api.sh -o $OS -y $year`
  
 3. starting and stopping servers `kick_metamap_servers.sh`
