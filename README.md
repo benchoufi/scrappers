@@ -18,7 +18,6 @@ the you'll have to run
 
 - [x] @benchoufi, **Windows** is not supported the same process needs to be done for **win32**
 
-
  After ensuring you have correctly installed the `bdutil` tool porvided by [Google Cloud](https://github.com/GoogleCloudPlatform/bdutil), you can run this 
 
  
