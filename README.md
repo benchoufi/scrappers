@@ -21,7 +21,11 @@ the you'll have to run
  After ensuring you have correctly installed the `bdutil` tool porvided by [Google Cloud](https://github.com/GoogleCloudPlatform/bdutil), you can run this 
 
  
- `./bdutil -P metamap -b metamap_hd -u deploy_metamap.sh run_command -- ./deploy_metamap.sh -o $OS -y $year`
+ `./bdutil -P metamap -b metamap_hd -u deploy_metamap.sh run_command --\
+  ./deploy_metamap.sh -o $OS -y $year`
+  
+  This will deploy on all the whole cluser. If needed, you can deploy more strictly by specifying the -t (--target) flag, wihch must be 
+  one of the following [master|workers|all].
 
 ### custom synchronisation 
 

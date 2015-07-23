@@ -5,6 +5,12 @@ set -e
 
 NUMBER_OF_ARGS=${#@}
 
+error_exit()
+{
+	echo "$1" 1>&2
+	exit 1
+}
+
 if [ "$NUMBER_OF_ARGS" -lt 2 ] ; then
 	error_exit "Incorrect number of parameters"
 fi
@@ -29,6 +35,7 @@ while true; do
 	  shift;
       if [ -n "$1" ]; then
 		tmp=$((tmp+1))
+		OS=$1
         echo "OS version : $1";
         shift;
       fi
@@ -37,7 +44,8 @@ while true; do
       shift;
       if [ -n "$1" ]; then
 		tmp=$((tmp+1))
-        echo "Year released : $1s";
+		YEAR=$1
+        echo "Year released : $1";
         shift;
       fi
       ;;
@@ -52,14 +60,12 @@ if [ "$tmp" -ne 2 ] ; then
 	error_exit "Incorrect flags" 
 fi
 
-OS=$0
-YEAR=$1
 METAMAP_DIR="metamap"
 BASE_URL="sameditresfroid.fr/"
 BASE_NAME="public_mm"
 EXTENSION_ZIP_FILE=".tar.bz2"
 # construct URL
-FILE_NAME="$BASE_NAME"_$1_main_$2"$EXTENSION_ZIP_FILE"
+FILE_NAME="$BASE_NAME"_"$OS"_main_"$YEAR$EXTENSION_ZIP_FILE"
 URL=$BASE_URL$FILE_NAME
 PID=$$
 
@@ -143,12 +149,6 @@ run()
 	export_path
 	run_install `pwd`
 	exit 0
-}
-
-error_exit()
-{
-	echo "$1" 1>&2
-	exit 1
 }
 
 run
