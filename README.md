@@ -17,7 +17,7 @@ the you'll have to run
 `./deploy_metamap.sh -o $OS -y $year`
 
 ### deploying on google cloud
- After ensuring you have correctly installed the `bdutil` tool porvided by Google Cloud, you can run this 
+ After ensuring you have correctly installed the `bdutil` tool porvided by [Google Cloud!](https://github.com/GoogleCloudPlatform/bdutil), you can run this 
  
  `./bdutil -P metamap -b metamap_hd -u deploy_metamap.sh run_command -- ./deploy_metamap.sh -o $OS -y $year`
 
