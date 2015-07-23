@@ -92,6 +92,11 @@ change_dir()
 	fi
 }
 
+gs_download_metamap()
+{
+	hadoop dfs -get "/$METAMAP_DIR/"$FILE_NAME .
+}
+
 download_metamap()
 {
 	curl -O "$URL"
@@ -132,7 +137,7 @@ run()
 {
 	mk_dir $METAMAP_DIR
 	change_dir $METAMAP_DIR
-	download_metamap 
+	gs_download_metamap 
 	unzip_file
 	change_dir $BASE_NAME
 	export_path
