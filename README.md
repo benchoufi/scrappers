@@ -4,7 +4,7 @@ this repo consists of several tools dedicated to custom BIG DATA tools.
 
 ## Deploying metamap on Google Cloud Storage
 
-deploy_metamap script is used to deploy METAMAP on clusters 
+`deploy_metamap` script is used to deploy METAMAP on clusters 
 
 ### runnning the script 
 
@@ -22,6 +22,10 @@ the you'll have to run
 
  
  `./bdutil -P metamap -b metamap_hd -u deploy_metamap.sh run_command -- ./deploy_metamap.sh -o $OS -y $year`
+
+### custom synchronisation 
+
+`rsync_nodes.sh` is intended to allow synchronization on some range of workers. This is not provided by `bdutils`. (this needs improvement to target nodes by name and range).
 
 ## BMJ scraping
 in the src/ directory, you'll find the BMJ Open Access scrapper. 
