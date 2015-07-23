@@ -4,11 +4,11 @@ this repo consists of several tools dedicated to custom BIG DATA tools.
 
 ## Deploying metamap on Google Cloud Storage
 
-`deploy_metamap` script is used to deploy METAMAP on clusters 
+Following scripts are used to deploy METAMAP on clusters 
 
-### runnning the script 
+### runnning the scripts 
 
-1. providing correct flags
+1. providing correct flags to `deploy_metamap.sh`
 -o, --os : stands for the OS : it can be either linux, darwin (OSX)
 -y, --year : stands for the 4 digits year of the package
 -h, --help : stands for help (no information yet)
@@ -26,6 +26,14 @@ the you'll have to run
   
   This will deploy on all the whole cluser. If needed, you can deploy more strictly by specifying the -t (--target) flag, wihch must be 
   one of the following [master|workers|all].
+
+2. running `deploy_metamap_api.sh`
+
+ You'll have to set the same flags are those of `deploy_metamap.sh`, so running 
+ 
+ Then you'll have to run 
+ `./deploy_metamap_api.sh -o $OS -y $year`
+ 
 
 ### custom synchronisation 
 
