@@ -27,12 +27,14 @@ Following scripts are used to deploy METAMAP on clusters
   one of the following [master|workers|all].
 
 2. running `deploy_metamap_api.sh`
+  
   you'll have to set the same flags are those of `deploy_metamap.sh`, so running 
   then you'll have to run 
 
  `./deploy_metamap_api.sh -o $OS -y $year`
  
 3. starting and stopping servers `kick_metamap_servers.sh`
+  
   you'll have to provide the year flag of the distribution : 
   -y, --year : stands for the 4 digits year of the package
   

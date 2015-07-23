@@ -72,10 +72,12 @@ start_servers()
 		echo "SKR/Medpost Tagger successfully reached"
 		if ./bin/wsdserverctl $1 ; then
 			echo "Word Sense Disambiguation Server successfully reached"
-			if ./bin/mmserver"$SUBSTRING_YEAR" $1 ; then
-				echo "MM Server successfully reached"
-			else
-				error_exit "MM Server failed reaching"
+			if [ $1 == "start" ]
+				if ./bin/mmserver"$SUBSTRING_YEAR"; then
+					echo "MM Server successfully reached"
+				else
+					error_exit "MM Server failed reaching"
+				fi
 			fi
 		else
 			error_exit "Word Sense Disambiguation (WSD) failed reaching"
