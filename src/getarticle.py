@@ -6,6 +6,7 @@ import namearticle, getauthors, getreference, getbody, gettitle, getgfx
 import traceback
 
 # the path where you want to store your articles
+# you need to set the path
 path = ""
 
 def get_article(url) :
