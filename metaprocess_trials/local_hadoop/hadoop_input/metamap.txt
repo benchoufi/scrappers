@@ -1,0 +1,1 @@
+file:/Users/mehdibenchoufi/Desktop/Sites/hadoop/wordcount_base/xml_input/NCT00380055.xml	brief_title	 Reducing Cancer Disparities for American Indians in the Rural Intermountain West 	official_title	 Reducing Cancer Disparities for American Indians in the Rural Intermountain West 	condition	 Prostate Cancer  Colorectal Cancer  Breast Cancer  Cervical Cancer  Lung Cancer

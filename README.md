@@ -50,5 +50,17 @@ Following scripts are used to deploy METAMAP on clusters
 
 `rsync_nodes.sh` is intended to allow synchronization on some range of workers. This is not provided by `bdutils`. (this needs improvement to target nodes by name and range).
 
+### filtering and metamap processing 
+
+  [Clinical Trials](clinicaltrials.gov) is the database from which extracting the datasets.
+
+  `filter_trials` deals with filtering each trial. 
+
+  `metaprocess_trials` applies [UMLS ontology](www.nlm.nih.gov/research/umls/).
+  the `metamap api` is called setting this options 
+
+  ```
+  setApiOptions("-y -A -V USAbase -Z 2014AB -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy");
+  ```
 ## BMJ scraping
 in the src/ directory, you'll find the BMJ Open Access scrapper. 
