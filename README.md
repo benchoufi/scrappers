@@ -16,7 +16,7 @@ Following scripts are used to deploy METAMAP on clusters
   the you'll have to run 
   `./deploy_metamap.sh -o $OS -y $year`
 
-  - [x] @benchoufi, **Windows** is not supported the same process needs to be done for **win32**
+  - [x] **Windows** is not supported the same process needs to be done for **win32**
 
   after ensuring you have correctly installed the `bdutil` tool porvided by [Google Cloud](https://github.com/GoogleCloudPlatform/bdutil), you can run this 
  
@@ -62,5 +62,7 @@ Following scripts are used to deploy METAMAP on clusters
   ```
   setApiOptions("-y -A -V USAbase -Z 2014AB -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy");
   ```
+  
+  `avrosation_trials` deals combines filtering and metamap processing in two bound mapreduce jobs. the input format is `avro`, better suited for large number of small xml files.
 ## BMJ scraping
 in the src/ directory, you'll find the BMJ Open Access scrapper. 

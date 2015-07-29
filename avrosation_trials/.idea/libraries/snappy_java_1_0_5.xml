@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="snappy-java-1.0.5">
+    <CLASSES>
+      <root url="jar:///usr/local/Cellar/hadoop/2.7.0/libexec/share/hadoop/common/lib/snappy-java-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
