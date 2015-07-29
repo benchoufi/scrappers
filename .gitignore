@@ -1,0 +1,22 @@
+# Covers JetBrains IDEs: IntelliJ
+
+**.iml
+**.idea/
+
+# OSX gitignore
+**.DS_Store
+
+# Java projects
+
+avrosation_trials/input/*
+avrosation_trials/output/*
+avrosation_trials/xml_input/*
+
+metaprocess_trials/hadoop_input/*
+metaprocess_trials/output_files/*
+
+filter_trials/xml_input/*
+filter_trials/outFiles/*
+
+# avro 
+*.avro.crc
