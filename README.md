@@ -64,5 +64,7 @@ Following scripts are used to deploy METAMAP on clusters
   ```
   
   `avrosation_trials` deals combines filtering and metamap processing in two bound mapreduce jobs. the input format is `avro`, better suited for large number of small xml files.
+  
+  **Remark** `avrosation_trials` contains 2 classes, namely `AvroReader` and `Avrowriter` that strictly supports transformation of the large number of xml files into one `Avro` container large file. this can be built and extracted as a separated jar. 
 ## BMJ scraping
 in the src/ directory, you'll find the BMJ Open Access scrapper. 
