@@ -20,9 +20,12 @@ metaprocess_trials/hadoop_input/*
 metaprocess_trials/output_files
 metaprocess_trials/output_files/*
 
+filter_trials/xml_input
 filter_trials/xml_input/*
 filter_trials/outFiles
 filter_trials/outFiles/*
+
+**.wordcount_base.properties
 
 # avro 
 *.avro.crc
