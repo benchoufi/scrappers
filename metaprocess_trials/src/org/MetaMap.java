@@ -49,15 +49,12 @@ public class MetaMap {
         Result result = resultList.get(0);
         // if needed
         //extractAbbreviations(result);
-        System.out.print("Index " + result.getUtteranceList().size() + "\n");
         for (Utterance utterance: result.getUtteranceList()) {
             for (PCM pcm: utterance.getPCMList()) {
                 buildingOutput("Phrase:", " text: " + pcm.getPhrase().getPhraseText(), "Candidates:");
                 // mappings
                 for (Mapping map: pcm.getMappingList()) {
-                    System.out.print("MapEnv " + pcm.getMappingList().size() + "\n");
                     for (Ev mapEv: map.getEvList()) {
-                        System.out.print("Result " + map.getEvList().size() + "\n");
                         buildingOutput(
                                 "   Score: " + mapEv.getScore(),
                                 "   Concept Id: " + mapEv.getConceptId(),
@@ -71,7 +68,6 @@ public class MetaMap {
             }
         }
         extractNegations(result);
-        System.out.print("\n");
         return builder.toString();
     }
 

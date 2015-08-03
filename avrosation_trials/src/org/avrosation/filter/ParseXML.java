@@ -35,12 +35,10 @@ public class ParseXML extends Configured implements Tool {
                         Context context) throws IOException, InterruptedException {
             Text outkey = new Text(key.datum().get(
                     AvroWriter.FIELD_FILENAME).toString());
-            System.out.print(outkey.toString());
             ByteBuffer byte_value = (ByteBuffer) key.datum().get(AvroWriter.FIELD_CONTENTS);
             BytesWritable outvalue = new BytesWritable(byte_value.array());
             FilterXML filterXML = new FilterXML(outvalue, project_conf.getToparse_tags());
             Text filter_outvalue = filterXML.filter();
-            System.out.print(filter_outvalue.toString());
             context.write(outkey, filter_outvalue);
         }
     }

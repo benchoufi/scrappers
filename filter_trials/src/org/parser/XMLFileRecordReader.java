@@ -94,15 +94,11 @@ public class XMLFileRecordReader extends
         if (!processed) {
             byte[] contents = new byte[(int) fileSplit.getLength()];
             Path file = fileSplit.getPath();
-            System.out.print(conf);
             FileSystem fs = file.getFileSystem(conf);
-            System.out.print(fs.toString());
 
             FSDataInputStream in = null;
-            System.out.print("here ");
             try {
                 in = fs.open(file);
-                System.out.print(contents.length);
                 IOUtils.readFully(in, contents, 0, contents.length);
                 value.set(contents, 0, contents.length);
             } finally {

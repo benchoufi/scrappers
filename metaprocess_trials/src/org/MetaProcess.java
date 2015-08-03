@@ -31,7 +31,6 @@ public class MetaProcess {
                     metaMap.processOutput(splitArray[2*index]);
                     output.append(metaMap.output());
                 }
-                System.out.print(output.toString() + "\n");
                 info.set(output.toString());
                 word.set(key.toString());
                 context.write(word, info);
