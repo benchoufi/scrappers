@@ -25,6 +25,10 @@ filter_trials/xml_input/*
 filter_trials/outFiles
 filter_trials/outFiles/*
 
+spark-filter_trials/input
+spark-filter_trials/out
+spark-filter_trials/outFiles
+
 **.wordcount_base.properties
 
 # avro 

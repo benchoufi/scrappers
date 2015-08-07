@@ -1,0 +1,7 @@
+filter/ProjectConf.class
+avro/AvroWriter.class
+filter/Parser.class
+filter/ParseXML.class
+filter/FilterXML.class
+avro/AvroReader.class
+filter/ParseXML$1.class
