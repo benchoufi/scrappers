@@ -67,6 +67,12 @@ Following scripts are used to deploy METAMAP on clusters
   
   for the moment, there are two way of running `avrosation_trials` from the main method of `Process.java` or `ChainProcess.java`. the last one uses `hadoop` chaining. it must be more efficient. **need to be benchmarked** 
   
-  **Remark** `avrosation_trials` contains 2 classes, namely `AvroReader` and `Avrowriter` that strictly supports transformation of the large number of xml files into one `Avro` container large file. this can be built and extracted as a separated jar. 
+  **Remark** `avrosation_trials` contains 2 classes, namely `AvroReader` and `Avrowriter` that strictly supports transformation of the large number of xml files into one `Avro` container large file. this can be built and extracted as a separated jar.
+  
+  `spark-filter_trials` is the same trivial tool than `filter_trials`, except it runs with `spark`. It runs much faster. To submit the `spark` job, you have to run 
+  
+  ```
+  ./bin/spark-submit --master yarn --class filter.ParseXML --packages com.databricks:spark-avro_2.10:1.0.0 $some_path/target/spark-filter-1.0-SNAPSHOT.jar $some_file_.avro some_output_dir
+  ```
 ## BMJ scraping
 in the src/ directory, you'll find the BMJ Open Access scrapper. 
