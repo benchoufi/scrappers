@@ -18,6 +18,9 @@ public class MetaMap {
         this.apiOptions = api_options;
     }
 
+    /*
+    * Old implementation of Metamap constructor, setting roughly the options @todo: to be deleted
+    */
     public MetaMap() {
         api = new MetaMapApiImpl();
         setApiOptions("-y -A -V USAbase -Z 2014AB -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy");
@@ -25,16 +28,19 @@ public class MetaMap {
         builder = new StringBuilder();
     }
 
+    /*
+    * New implementation of Metamap constructor, setting options from request
+    */
+    public MetaMap(String options) {
+        api = new MetaMapApiImpl();
+        setApiOptions(options);
+        api.setOptions(apiOptions);
+        builder = new StringBuilder();
+    }
+
     public void processOutput(String keywords){
         resultList = api.processCitationsFromString(keywords);
         api.disconnect();
-    }
-
-    public MetaMap(String keywords) {
-        api = new MetaMapApiImpl();
-        setApiOptions("-y -A -V USAbase -Z 2014AB -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy");
-        resultList = api.processCitationsFromString(keywords);
-        builder = new StringBuilder();
     }
 
     private StringBuilder buildingOutput(Object... arguments){

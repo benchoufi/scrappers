@@ -58,10 +58,14 @@ Following scripts are used to deploy METAMAP on clusters
 
   `metaprocess_trials` applies [UMLS ontology](www.nlm.nih.gov/research/umls/).
   the `metamap api` is called setting this options 
+  
+  By default, the options called are 
 
   ```
-  setApiOptions("-y -A -V USAbase -Z 2014AB -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy");
+  "-A -V USAbase -Z 2014AB -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy");
   ```
+  
+  To pass any other options, for example `-y`, add this as the last argument of program arguments.  
   
   `avrosation_trials` deals combines filtering and metamap processing in two bound mapreduce jobs. the input format is `avro`, better suited for large number of small xml files.
   

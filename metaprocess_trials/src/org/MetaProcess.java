@@ -19,11 +19,17 @@ public class MetaProcess {
 
         private Text word = new Text();
         private MetaMap metaMap;
+        private String options;
+
+        protected void setup(Context context) throws IOException, InterruptedException {
+            Configuration conf = context.getConfiguration();
+            options = conf.get("metamap options");
+        }
 
         public void map(LongWritable key, Text value, Context context
         ) throws IOException, InterruptedException {
             String[] splitArray = splitValue(value);
-            metaMap = new MetaMap();
+            metaMap = new MetaMap(options);
             Text info = new Text();
             StringBuilder output = new StringBuilder();
             try {
@@ -66,9 +72,9 @@ public class MetaProcess {
         long startTime = System.currentTimeMillis();
 
         Configuration configuration = new Configuration();
-        //configuration.set("mapreduce.jobtracker.address", "localhost:54311");
-        //configuration.set("mapreduce.framework.name", "yarn");
-        //configuration.set("yarn.resourcemanager.address", "localhost:8032");
+        if (args.length >= 3) {
+            Config.getInstance().addOptions(args[2]);
+        }
         Job job = Job.getInstance(configuration, "metamap process");
         job.setJarByClass(MetaProcess.class);
         job.setMapperClass(TokenizerMapper.class);
@@ -83,6 +89,5 @@ public class MetaProcess {
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
         System.out.println(elapsedTime);
-        //System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
