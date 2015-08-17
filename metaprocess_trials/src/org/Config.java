@@ -6,7 +6,7 @@ package org;
 public class Config {
 
     private static Config config = null;
-    private static String options = "-A -V USAbase -Z 2014AB -J " +
+    private static String options = "-A -V USAbase -J " +
             "acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy";
 
     public String getOptions() {

@@ -62,10 +62,10 @@ Following scripts are used to deploy METAMAP on clusters
   By default, the options called are 
 
   ```
-  "-A -V USAbase -Z 2014AB -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy");
+  "-A -V USAbase -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy");
   ```
   
-  To pass any other options, for example `-y`, add this as the last argument of program arguments.  
+  To pass any other options, for example `-y  -Z 2014AB`, add this as the last argument of program arguments.  
   
   `avrosation_trials` deals combines filtering and metamap processing in two bound mapreduce jobs. the input format is `avro`, better suited for large number of small xml files.
   
