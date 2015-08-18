@@ -78,5 +78,7 @@ Following scripts are used to deploy METAMAP on clusters
   ```
   ./bin/spark-submit --master yarn --class filter.ParseXML --packages com.databricks:spark-avro_2.10:1.0.0 $some_path/target/spark-filter-1.0-SNAPSHOT.jar $some_file_.avro some_output_dir
   ```
+  `spark-metaprocess_trials` is the same trivial tool than `metaprocess_trials`, except it runs with `spark`. To submit, the command is the same than the former one except this time you don't need to package it with databricks' avro.
+   
 ## BMJ scraping
 in the src/ directory, you'll find the BMJ Open Access scrapper. 

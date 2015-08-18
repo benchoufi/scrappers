@@ -29,6 +29,11 @@ spark-filter_trials/input
 spark-filter_trials/out
 spark-filter_trials/outFiles
 
+spark-metaprocess_trials/hadoop_input
+spark-metaprocess_trials/hadoop_input/*
+spark-metaprocess_trials/output_files
+spark-metaprocess_trials/output_files/*
+
 **.wordcount_base.properties
 
 # avro 
