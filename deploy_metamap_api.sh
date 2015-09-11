@@ -66,8 +66,8 @@ FILE_NAME="$BASE_NAME"_"$OS"_javaapi_"$YEAR$EXTENSION_ZIP_FILE"
 
 change_dir()
 {
-	if cd "$1" ; then
-		echo "$1"
+	if cd $1 ; then
+		echo $1
 		pwd
 		echo "Successfully changed directory"
 	else
@@ -77,7 +77,7 @@ change_dir()
 
 gs_download_metamap()
 {
-	hadoop dfs -get "/$METAMAP_DIR/"$FILE_NAME .
+	/home/hadoop/hadoop-install/bin/hadoop dfs -get "/$METAMAP_DIR/"$FILE_NAME .
 }
 
 unzip_file()

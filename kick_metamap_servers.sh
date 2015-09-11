@@ -57,8 +57,8 @@ ACTION="${@: -1}"
 
 change_dir()
 {
-	if cd "$1" ; then
-		echo "$1"
+	if cd $1 ; then
+		echo $1
 		pwd
 		echo "Successfully changed directory"
 	else
@@ -72,7 +72,7 @@ start_servers()
 		echo "SKR/Medpost Tagger successfully reached"
 		if ./bin/wsdserverctl $1 ; then
 			echo "Word Sense Disambiguation Server successfully reached"
-			if [ $1 == "start" ]
+			if [ $1 == "start" ]; then
 				if ./bin/mmserver"$SUBSTRING_YEAR"; then
 					echo "MM Server successfully reached"
 				else

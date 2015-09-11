@@ -21,7 +21,7 @@ Following scripts are used to deploy METAMAP on clusters
   after ensuring you have correctly installed the `bdutil` tool porvided by [Google Cloud](https://github.com/GoogleCloudPlatform/bdutil), you can run this 
  
  `./bdutil -P metamap -b metamap_hd -u deploy_metamap.sh run_command --\
-  sudo -E env "PATH=$PATH" ./deploy_metamap.sh -o $OS -y $year`
+  ./deploy_metamap.sh -o $OS -y $year`
   
   this will deploy on all the whole cluser. If needed, you can deploy more strictly by specifying the -t (--target) flag, wihch must be 
   one of the following [master|workers|all].
@@ -41,10 +41,10 @@ Following scripts are used to deploy METAMAP on clusters
   this script starts or stops the SKR/Medpost Tagger server, the Word Sense Disambiguation server, and the MM server. 
 
   to start servers, run 
-  `kick_metamap_servers.sh -y start`
+  `sudo kick_metamap_servers.sh -y start`
 
   to stop servers, run
-  `kick_metamap_servers.sh -y stop`  
+  `sudo kick_metamap_servers.sh -y stop`  
 
 ### custom synchronisation 
 
@@ -62,7 +62,7 @@ Following scripts are used to deploy METAMAP on clusters
   By default, the options called are 
 
   ```
-  "-A -V USAbase -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy");
+  "-A -V USAbase -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy";
   ```
   
   To pass any other options, for example `-y  -Z 2014AB`, add this as the last argument of program arguments.  

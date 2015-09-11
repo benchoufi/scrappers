@@ -80,7 +80,7 @@ mk_dir()
 
 mv_file()
 {
-	if mv "$1" "$2" ; then
+	if mv $1 $2 ; then
 		echo "succcessfully moved file inside its directory"
 	else
 		error_exit "Failed to move file inside its directory"
@@ -89,8 +89,8 @@ mv_file()
 
 change_dir()
 {
-	if cd "$1" ; then
-		echo "$1"
+	if cd $1 ; then
+		echo $1
 		pwd
 		echo "Successfully changed directory"
 	else
@@ -100,7 +100,7 @@ change_dir()
 
 gs_download_metamap()
 {
-	hadoop dfs -get "/$METAMAP_DIR/"$FILE_NAME .
+	/home/hadoop/hadoop-install/bin/hadoop dfs -get "/$METAMAP_DIR/"$FILE_NAME .
 }
 
 download_metamap()
@@ -121,7 +121,7 @@ download_metamap()
 
 unzip_file()
 {
-	`bunzip2 -c "$FILE_NAME" | tar xvf - `
+	bunzip2 -c "$FILE_NAME" | tar xvf -
 }
 
 export_path()
