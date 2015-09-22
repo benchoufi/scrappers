@@ -26,9 +26,11 @@ public class ChainMetaProcess {
             Text info = new Text();
             StringBuilder output = new StringBuilder();
             try {
-                for(int index=1;2*index<splitArray.length;index++){
-                    metaMap.processOutput(splitArray[2*index]);
-                    output.append(metaMap.output());
+                for(int index=0;2*index<splitArray.length;index++){
+                   	 if(splitArray[1 + 2 * index].trim().length() > 0){
+						 metaMap.processOutput(splitArray[1 + 2 * index]);
+						 output.append(metaMap.output());
+					}
                 }
                 info.set(output.toString());
                 word.set(key.toString());
