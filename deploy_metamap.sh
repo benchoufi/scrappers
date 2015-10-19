@@ -71,8 +71,10 @@ PID=$$
 
 mk_dir()
 {
-	if mkdir $1 ; then
-		echo "directory successfully created"
+	if [[ ! -e $1 ]]; then
+	    mkdir $1
+	elif [[ ! -d $1 ]]; then
+	    echo "$dir already exists" 1>&2
 	else
 		error_exit "Failed to create directory"
 	fi
