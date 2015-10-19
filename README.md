@@ -6,6 +6,26 @@ this repo consists of several tools dedicated to custom BIG DATA tools.
 
 Following scripts are used to deploy METAMAP on clusters 
 
+### tools
+
+To instal and run `metamap`, you'll need to install the compression tool `bzip2`. On linux type machine, you'll run
+
+  `apt-get install bzip2` 
+  
+The `metamap` running scripts relie on a 32bits script. Any 64bits computer that does not support 32bits will fail to launch `metamap`. For instance, on a linux type machine, you have to install the `GNU C` development libraries. 
+
+  ```
+  dpkg --add-architecture i386 
+  apt-get install libc6:i386 // ubuntu distro
+  ```
+  
+  ```
+  dpkg --add-architecture i386 
+  apt-get install libc6-dev-i386 // debian distro
+  ```
+
+
+
 ### runnning the scripts 
 
 1. providing correct flags to `deploy_metamap.sh`
