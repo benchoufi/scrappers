@@ -27,10 +27,18 @@ public class ChainMetaProcess {
             StringBuilder output = new StringBuilder();
             try {
                 for(int index=0;2*index<splitArray.length;index++){
-                   	 if(splitArray[1 + 2 * index].trim().length() > 0){
-						 metaMap.processOutput(splitArray[1 + 2 * index]);
-						 output.append(metaMap.output());
-					}
+					if(splitArray[1 + 2 * index].trim().length() > 0) {
+					                    String[] splitTagArray = splitTagValue(splitArray[1 + 2 * index]);
+					                    int len = splitTagArray.length;
+					                    output.append("\t" + splitArray[2 * index]);
+					                   
+					                    for (int j = 0; 2*j < len; j++) {
+					                        metaMap.processOutput(splitTagArray[2 * j + 1]);
+					                        output.append(metaMap.output());
+					                    }
+					                }
+									metaMap.cleanOutput();
+									
                 }
                 info.set(output.toString());
                 word.set(key.toString());

@@ -43,7 +43,10 @@ public class MetaMap {
         }
         return builder;
     }
-
+	
+	public void cleanOutput(){
+	        builder.setLength(0);
+	}
 
     public String output() throws Exception {
         Result result = resultList.get(0);
