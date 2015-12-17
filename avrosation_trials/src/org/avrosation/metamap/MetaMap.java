@@ -46,6 +46,7 @@ public class MetaMap {
 	
 	public void cleanOutput(){
 	        builder.setLength(0);
+	        resultList = null;
 	}
 
     public String output() throws Exception {

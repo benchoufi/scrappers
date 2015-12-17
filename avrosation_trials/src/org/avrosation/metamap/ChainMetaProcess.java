@@ -18,39 +18,49 @@ public class ChainMetaProcess {
 
         private Text word = new Text();
         private MetaMap metaMap;
+        private int i =0;
 
         public void map(Text key, Text value, Context context
         ) throws IOException, InterruptedException {
-            String[] splitArray = splitValue(value);
+            i++;
+            String[] splitArray = splitTabValue(value);
             metaMap = new MetaMap();
             Text info = new Text();
             StringBuilder output = new StringBuilder();
             try {
                 for(int index=0;2*index<splitArray.length;index++){
-					if(splitArray[1 + 2 * index].trim().length() > 0) {
-					                    String[] splitTagArray = splitTagValue(splitArray[1 + 2 * index]);
-					                    int len = splitTagArray.length;
-					                    output.append("\t" + splitArray[2 * index]);
-					                   
-					                    for (int j = 0; 2*j < len; j++) {
-					                        metaMap.processOutput(splitTagArray[2 * j + 1]);
-					                        output.append(metaMap.output());
-					                    }
-					                }
-									metaMap.cleanOutput();
-									
+                    if(splitArray[1 + 2 * index].trim().length() > 0) {
+                    String[] splitTagArray = splitTagValue(splitArray[1 + 2 * index]);
+                    int len = splitTagArray.length;
+                    output.append("\t" + splitArray[2 * index]);
+
+                    for (int j = 0; 2*j < len; j++) {
+                        metaMap.cleanOutput();
+                        metaMap.processOutput(splitTagArray[2 * j + 1]);
+                        output.append(metaMap.output());
+                    }
+
                 }
+                }
+                output.append("\t");
+                System.out.println("\n XXX---" + output.toString() +
+                        "\n ----XXX");
                 info.set(output.toString());
                 word.set(key.toString());
                 context.write(word, info);
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            context.write(word, info);
+            metaMap.disconnectApi();
         }
 
-        private String[] splitValue(Text value) {
+        private String[] splitTabValue(Text value) {
             String[] splitArray = value.toString().split("\t");
+            return splitArray;
+        }
+
+        private String[] splitTagValue(String value) {
+            String[] splitArray = value.split("<cond>");
             return splitArray;
         }
     }
