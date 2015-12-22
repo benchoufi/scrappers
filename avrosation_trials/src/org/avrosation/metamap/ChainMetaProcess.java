@@ -43,8 +43,6 @@ public class ChainMetaProcess {
                 }
                 }
                 output.append("\t");
-                System.out.println("\n XXX---" + output.toString() +
-                        "\n ----XXX");
                 info.set(output.toString());
                 word.set(key.toString());
                 context.write(word, info);
