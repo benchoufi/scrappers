@@ -98,6 +98,12 @@ The `metamap` running scripts relie on a 32bits script. Any 64bits computer that
   ```
   ./bin/spark-submit --master yarn --class filter.ParseXML --packages com.databricks:spark-avro_2.10:1.0.0 $some_path/target/spark-filter-1.0-SNAPSHOT.jar $some_file_.avro some_output_dir
   ```
+  **Remark**
+  - First, the `$some_file_.avro` and `some_output_dir` are located in your distributed storage. 
+
+  - Second, in some case, it might be necessary to add jars to this command, especially for `MetaMapApi`and `prologbeans` jar files. So that you should add the `--jars` flag to this command : 
+  ```./bin/spark-submit --master yarn --class org.avrosation.filter.ParseXML --jars /path/to/MetaMapApi.jar,/path/to/prologbeans.jar --packages com.databricks:spark-avro_2.10:1.0.0 $some_path/target/spark-filter-1.0-SNAPSHOT.jar $some_file_.avro some_output_dir```
+  
   `spark-metaprocess_trials` is the same trivial tool than `metaprocess_trials`, except it runs with `spark`. To submit, the command is the same than the former one except this time you don't need to package it with databricks' avro.
    
 ## BMJ scraping
