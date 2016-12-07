@@ -45,6 +45,9 @@ The `metamap` running scripts relie on a 32bits script. Any 64bits computer that
   
   this will deploy on all the whole cluser. If needed, you can deploy more strictly by specifying the -t (--target) flag, wihch must be 
   one of the following [master|workers|all].
+  
+  ** Remark **
+  we are supposing you are using the `bdutil` google cloud deployment. If you are using the more recent `dataproc`, then you'll have to use the `deploy_metamap_proc.sh`
 
 2. running `deploy_metamap_api.sh`
   
