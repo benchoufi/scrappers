@@ -44,11 +44,20 @@ public class MetaMap implements Serializable{
         api.disconnect();
     }
 
+    public void disconnectApi(){
+        api.disconnect();
+    }
+
     private StringBuilder buildingOutput(Object... arguments){
         for (int i = 0; i < arguments.length; ++i) {
             builder.append(arguments[i]);
         }
         return builder;
+    }
+
+    public void cleanOutput(){
+        builder.setLength(0);
+        resultList = null;
     }
 
 

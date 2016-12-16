@@ -7,7 +7,7 @@ public class Config {
 
     private static Config config = null;
     private static String options = "-A -V USAbase -J " +
-            "acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy";
+            "acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy" + " -y -Z 2014AB";
 
     public String getOptions() {
         return options;

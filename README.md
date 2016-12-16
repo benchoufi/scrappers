@@ -85,7 +85,7 @@ The `metamap` running scripts relie on a 32bits script. Any 64bits computer that
   By default, the options called are 
 
   ```
-  "-A -V USAbase -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy";
+  -A -V USAbase -J acab,anab,comd,cgab,dsyn,emod,inpo,mobd,neop,patf,sosy
   ```
   
   To pass any other options, for example `-y  -Z 2014AB`, add this as the last argument of program arguments.  
@@ -96,18 +96,32 @@ The `metamap` running scripts relie on a 32bits script. Any 64bits computer that
   
   **Remark** `avrosation_trials` contains 2 classes, namely `AvroReader` and `Avrowriter` that strictly supports transformation of the large number of xml files into one `Avro` container large file. this can be built and extracted as a separated jar.
   
-  `spark-filter_trials` is the same trivial tool than `filter_trials`, except it runs with `spark`. It runs much faster. To submit the `spark` job, you have to run 
+  `spark-filter_trials` is the same trivial tool than `filter_trials`, except it runs with `spark`. To submit the `spark` job, you have to run 
   
   ```
-  ./bin/spark-submit --master yarn --class filter.ParseXML --packages com.databricks:spark-avro_2.10:1.0.0 $some_path/target/spark-filter-1.0-SNAPSHOT.jar $some_file_.avro some_output_dir
+  spark-submit --master yarn --class filter.ParseXML --packages com.databricks:spark-avro_2.10:1.0.0 $some_path/target/spark-filter-1.0-SNAPSHOT.jar $some_file_.avro some_output_dir
   ```
+  we assume here that you added `spark-submit` to your `$PATH`
+  
   **Remark**
   - First, the `$some_file_.avro` and `some_output_dir` are located in your distributed storage. 
 
   - Second, in some case, it might be necessary to add jars to this command, especially for `MetaMapApi`and `prologbeans` jar files. So that you should add the `--jars` flag to this command : 
-  ```./bin/spark-submit --master yarn --class org.avrosation.filter.ParseXML --jars /path/to/MetaMapApi.jar,/path/to/prologbeans.jar --packages com.databricks:spark-avro_2.10:1.0.0 $some_path/target/spark-filter-1.0-SNAPSHOT.jar $some_file_.avro some_output_dir```
+  ```spark-submit --master yarn --class org.avrosation.filter.ParseXML --jars /path/to/MetaMapApi.jar,/path/to/prologbeans.jar --packages com.databricks:spark-avro_2.10:1.0.0 $some_path/target/spark-filter-1.0-SNAPSHOT.jar $some_file_.avro some_output_dir```
   
-  `spark-metaprocess_trials` is the same trivial tool than `metaprocess_trials`, except it runs with `spark`. To submit, the command is the same than the former one except this time you don't need to package it with databricks' avro.
+  `spark-metaprocess_trials` is the same trivial tool than `metaprocess_trials`, except it runs with `spark`. To submit, the command is
+  ```
+  spark-submit --master yarn —-class 
+  metamap.MetaProcess —-jars $some_path/target/spark-metamap-process.jar $some_file_input.txt $some_file_input.txt output_files
+  ```
+  This command can be eventually completed by the following arguments `--num-executors number_of_executors --executor-cores number_of_cores` 
+  
+  - The follwing issue can occur after wrapping the java code into the `jar` file and then submit the command : 
+  ```
+  Exception in thread "main" java.lang.SecurityException: Invalid signature file digest for Manifest main attributes
+  ```
+   Then , we suggest the followong treatment of the `jar` file : `zip -d yourjar.jar 'META-INF/.SF' 'META-INF/.RSA' 'META-INF/*SF'
+  
    
 ## BMJ scraping
 in the src/ directory, you'll find the BMJ Open Access scrapper. 
