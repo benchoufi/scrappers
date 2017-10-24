@@ -73,6 +73,7 @@ The `metamap` running scripts relie on a 32bits script. Any 64bits computer that
 
 `rsync_nodes.sh` is intended to allow synchronization on some range of workers. This is not provided by `bdutils`. (this needs improvement to target nodes by name and range).
 
+
 ### filtering and metamap processing 
 
   [Clinical Trials](clinicaltrials.gov) is the database from which extracting the datasets.

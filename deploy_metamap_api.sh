@@ -77,7 +77,7 @@ change_dir()
 
 gs_download_metamap()
 {
-	/home/hadoop/hadoop-install/bin/hadoop dfs -get "/$METAMAP_DIR/"$FILE_NAME .
+	/usr/bin/hadoop dfs -get gs://dataproc-238dde13-5562-46f3-bc3f-f18584d2e10c-eu"/$METAMAP_DIR/"$FILE_NAME ./
 }
 
 unzip_file()

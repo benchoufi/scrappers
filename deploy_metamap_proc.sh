@@ -73,7 +73,7 @@ mk_dir()
 {
 	if [[ ! -e $1 ]]; then
 	    mkdir $1
-	elif [[ ! -d $1 ]]; then
+	elif [[ -d $1 ]]; then
 	    echo "$dir already exists" 1>&2
 	else
 		error_exit "Failed to create directory"
@@ -102,7 +102,7 @@ change_dir()
 
 gs_download_metamap()
 {
-	/usr/bin/hadoop dfs -get gs://dataproc-51d8e12a-cdf2-4905-865e-caf3f233896a-eu/"$METAMAP_DIR"/* .
+	/usr/bin/hadoop dfs -get gs://dataproc-238dde13-5562-46f3-bc3f-f18584d2e10c-eu/"$METAMAP_DIR"/* .
 }
 
 download_metamap()
