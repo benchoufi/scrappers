@@ -41,7 +41,7 @@ The `metamap` running scripts relie on a 32bits script. Any 64bits computer that
   after ensuring you have correctly installed the `bdutil` tool porvided by [Google Cloud](https://github.com/GoogleCloudPlatform/bdutil), you can run this 
  
  `./bdutil -P metamap -b metamap_hd -u deploy_metamap.sh run_command --\
-  ./deploy_metamap.sh -o $OS -y $year`
+  ./deploy_metamap.sh -o $OS -y $year` # -P is the prefix, here metamap and -b the name of your google cloud bucket, here metamap_hd
   
   this will deploy on all the whole cluser. If needed, you can deploy more strictly by specifying the -t (--target) flag, wihch must be 
   one of the following [master|workers|all].
@@ -67,11 +67,31 @@ The `metamap` running scripts relie on a 32bits script. Any 64bits computer that
   `sudo kick_metamap_servers.sh -y start`
 
   to stop servers, run
-  `sudo kick_metamap_servers.sh -y stop`  
+  `sudo kick_metamap_servers.sh -y stop` 
+  
+4. using puppet
 
-### custom synchronisation 
+User can use any favorite culster management tool, `Ansible`, `Chef` or whatever. Here, we make the choice of using `puppet`. User will have to install on the cluster, and then all the deployment routine occurs : so that `metamap` is intalled on all the nodes and, to the only condition the installation is correct, then the `metamap` servers are ran. 
 
-`rsync_nodes.sh` is intended to allow synchronization on some range of workers. This is not provided by `bdutils`. (this needs improvement to target nodes by name and range).
+To run the manifest, User has to go the /path/to/puppet/code/environments/production/manifests and then run `sudo puppet apply site.pp`, and all the magic happens ;) For example on a linux machine, this path is `/etc/puppetlabs/code/environments/production/manifests`
+
+In the `modules` folder, one find the `scripts` that will be synced on all agents and the two main modules, namely `metamap` where all the metamap installation logic appears and `servers` well all the servers kick-off happens. We use `facter` to apply the main server commands. For now, to stop the server, User will have to 
+- edit the `/path/to/puppet/code/environments/production/modules/servers/lib/facter/commands.rb` file and change `start` to `stop`
+- run `export FACTER_order=stop`
+- apply the  manifest again `sudo puppet apply site.pp` in `/path/to/puppet/code/environments/production/manifests`
+
+We let in place some `test_*.pp` manfest file for debug purpose.
+
+** Remark **
+The usability of server "start and stop" commands need to be improved
+
+### cluster synchronisation 
+
+	Our main tool is `puppet`. First, you have got to install puppet on the master node of the cluster. Then add the manifest `site.pp` we provide in the manifet folder.
+	In general, this folder is `/etc/puppetlabs/code/environments/production/manifests` - for a `debian` machine. When puppet is ran the necessary packages will be installed 
+	all across the nodes, the `metamap` packages, that are already installed in the master node will be synced on the workers and the metamap servers will be kicked to start.
+	 
+	We provide also some custom base to do sync, for a handmade scripts. `rsync_nodes.sh` is intended to allow synchronization on some range of workers. This is not provided by `bdutils`. (this needs improvement to target nodes by name and range).
 
 
 ### filtering and metamap processing 
